@@ -1,0 +1,3474 @@
+{
+ "url": "index.html",
+ "at": "2026-10-20T13:53:30.901Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.83,
+    0.63,
+    0.68,
+    0.49,
+    0.65,
+    0.38,
+    0.74,
+    0.51
+   ],
+   "motion": {
+    "elements": 8,
+    "css": 0,
+    "transitions": 8,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 6517,
+     "screens": 7.2,
+     "words": 684,
+     "img": 15,
+     "video": 0,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 17,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1519823551278-64ac92734fb1?auto=format&fit",
+      "photo-1515377905703-c4788e51af15?auto=format&fit",
+      "photo-1600334129128-685c5582fd35?auto=format&fit",
+      "photo-1765862835326-14b5070fdde9?auto=format&fit",
+      "photo-1741522509438-a120c0bb5e88?auto=format&fit",
+      "photo-1519824145371-296894a0daa9?auto=format&fit",
+      "photo-1544161515-4ab6ce6db874?auto=format&fit=cr",
+      "photo-1611073615830-9f76902c10fe?auto=format&fit"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+     "words": 5,
+     "chars": 31,
+     "lines": 3,
+     "size": 69,
+     "vw": 4.8,
+     "font": "Arial",
+     "weight": 700,
+     "tracking": -0.043,
+     "leading": 0.99,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.43,
+     "top": 254,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+     "words": 5,
+     "lines": 3,
+     "size": 69,
+     "font": "Arial"
+    },
+    "headings": [
+     {
+      "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+      "words": 5,
+      "chars": 31,
+      "lines": 3,
+      "size": 69,
+      "vw": 4.8,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.043,
+      "leading": 0.99,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.43,
+      "top": 254,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Mais do que uma massagem. Um momento para desacelerar.",
+      "words": 9,
+      "chars": 54,
+      "lines": 3,
+      "size": 41,
+      "vw": 2.8,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.039,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 1149,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Encontre o momento certo para você.",
+      "words": 6,
+      "chars": 35,
+      "lines": 2,
+      "size": 46,
+      "vw": 3.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.28,
+      "top": 1597,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Seu bem-estar, onde você estiver.",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 46,
+      "vw": 3.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.35,
+      "top": 2321,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Leve o bem-estar para casa.",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 46,
+      "vw": 3.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.23,
+      "top": 2923,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Seu momento começa aqui.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 46,
+      "vw": 3.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.37,
+      "top": 4115,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cuidado de verdade. De pessoa para pessoa.",
+      "words": 7,
+      "chars": 42,
+      "lines": 2,
+      "size": 46,
+      "vw": 3.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 4763,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Um toque de cuidado. Uma sensação de leveza.",
+      "words": 8,
+      "chars": 44,
+      "lines": 2,
+      "size": 46,
+      "vw": 3.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.035,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 5254,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.01,
+      "top": 5473,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.01,
+      "top": 5473,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 50,
+      "vw": 3.5,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.01,
+      "top": 5473,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Seu corpo pede uma pausa.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 60,
+      "vw": 4.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.027,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 5880,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 3,
+     "over2Lines": 2,
+     "statements": 0,
+     "centered": 2,
+     "medianWords": 5,
+     "mixedFontHeadings": 8
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Arial",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Georgia",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+      20,
+      24,
+      41,
+      46,
+      50,
+      60,
+      69
+     ],
+     "sizeCount": 17,
+     "notLoaded": [],
+     "body": {
+      "font": "Arial",
+      "size": 13,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 86,
+     "max": {
+      "size": 69,
+      "vw": 4.8,
+      "font": "Arial",
+      "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ."
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 13,
+     "microLabelShare": 0.069,
+     "microSamples": [
+      "— UM MOMENTO PARA VOCÊ",
+      "ATENDIMENTO",
+      "EXPERIÊNCIA ESSENZA",
+      "EXPERIÊNCIA ESSENZA",
+      "TOQUE · AROMA · PRESENÇA",
+      "CUIDADO EM CADA TOQUE"
+     ],
+     "upperShare": 0.08,
+     "centerShare": 0.14,
+     "smallText": 86
+    },
+    "eyebrows": [
+     {
+      "text": "— UM MOMENTO PARA VOCÊ",
+      "above": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 215
+     },
+     {
+      "text": "EXPERIÊNCIA ESSENZA",
+      "above": "Mais do que uma massagem. Um momento par",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 1110
+     },
+     {
+      "text": "CUIDADO EM CADA TOQUE",
+      "above": "Encontre o momento certo para você.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 1558
+     },
+     {
+      "text": "O CONFORTO DE ESTAR EM CASA",
+      "above": "Seu bem-estar, onde você estiver.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 2282
+     },
+     {
+      "text": "PEQUENOS RITUAIS, TODOS OS DIAS",
+      "above": "Leve o bem-estar para casa.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 2884
+     },
+     {
+      "text": "UMA PAUSA NA SUA AGENDA",
+      "above": "Seu momento começa aqui.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 4076
+     },
+     {
+      "text": "POR TRÁS DA EXPERIÊNCIA",
+      "above": "Cuidado de verdade. De pessoa para pesso",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 4724
+     },
+     {
+      "text": "EXPERIÊNCIAS QUE FICAM",
+      "above": "Um toque de cuidado. Uma sensação de lev",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 5215
+     },
+     {
+      "text": "PERMITA-SE DESACELERAR",
+      "above": "Seu corpo pede uma pausa.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 5841
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 19,
+      "top": 4332
+     },
+     {
+      "text": "02",
+      "size": 19,
+      "top": 4397
+     },
+     {
+      "text": "03",
+      "size": 19,
+      "top": 4463
+     }
+    ],
+    "color": {
+     "bodyBg": "#f5f1ea",
+     "bodyBgHsl": {
+      "h": 38,
+      "s": 0.35,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e8ded0",
+       "top": 125,
+       "hsl": {
+        "h": 35,
+        "s": 0.34,
+        "l": 0.86
+       }
+      },
+      {
+       "color": "#e8e3d8",
+       "top": 4011,
+       "hsl": {
+        "h": 41,
+        "s": 0.26,
+        "l": 0.88
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#746a63",
+       "share": 0.45
+      },
+      {
+       "color": "#24221f",
+       "share": 0.27
+      },
+      {
+       "color": "#4a382d",
+       "share": 0.09
+      },
+      {
+       "color": "#985e34",
+       "share": 0.05
+      },
+      {
+       "color": "#fefeff",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#985e34",
+      "hsl": {
+       "h": 25,
+       "s": 0.49,
+       "l": 0.4
+      },
+      "fg": "#fefeff"
+     },
+     "lowContrast": [
+      {
+       "text": "O CONFORTO DE ESTAR EM CASA",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#985e34",
+       "bg": "#e8ded0"
+      },
+      {
+       "text": "Não precisa sair de casa. Preparamos tud",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#746a63",
+       "bg": "#e8ded0"
+      },
+      {
+       "text": "Região: [Cidade e região de atendimento]",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#746a63",
+       "bg": "#e8ded0"
+      },
+      {
+       "text": "ESPAÇO PARA A FOTO DO PROFISSIONAL",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#746a63",
+       "bg": "#e8ded0"
+      },
+      {
+       "text": "UMA PAUSA NA SUA AGENDA",
+       "ratio": 4.1,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#985e34",
+       "bg": "#e8e3d8"
+      },
+      {
+       "text": "Conte como você gostaria de receber seu ",
+       "ratio": 4.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#746a63",
+       "bg": "#e8e3d8"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 19,
+     "inHero": 4,
+     "radius": "pill",
+     "height": 38,
+     "withShadow": 1,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Pular para o conteúdo",
+      "Agendar massagem",
+      "Conhecer experiências",
+      "Vamos conversar?"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "div.float-card.top → rgba(53, 36, 25, 0.063) 0px 10px 35px 0px",
+      "div.float-card.bottom → rgba(53, 36, 25, 0.063) 0px 10px 35px 0px"
+     ],
+     "gradients": 2,
+     "scrims": 0,
+     "gradientSamples": [
+      "section#experiencias.experience.reveal → linear-gradient(90deg, rgba(35, 26, 18, 0.91), rgba(35, 26, 18, 0.376) 63%, rgba(35, 26, 18, 0.063)), url(\"htt",
+      "section.final-cta.reveal → radial-gradient(rgb(230, 218, 201), rgba(0, 0, 0, 0) 65%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 9,
+     "hairlineSamples": [
+      "div.service-meta 312px",
+      "div.service-meta 312px",
+      "div.service-meta 312px",
+      "div.service-meta 312px",
+      "div.booking-detail 531px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 2,
+     "roundedBoxes": 20,
+     "boxRadius": 17,
+     "squareMedia": 0,
+     "roundedMedia": 17,
+     "mediaRadius": 16,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 5447
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.7
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 89,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "phosphor"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 6517,
+    "margins": {
+     "left": 65,
+     "right": 65
+    },
+    "sections": [
+     {
+      "sel": "section#inicio.hero",
+      "tag": "section",
+      "top": 125,
+      "height": 680,
+      "words": 57,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "RELAXE.",
+       "size": 69,
+       "tag": "h1"
+      },
+      "left": 49,
+      "right": 49,
+      "textLeft": 108,
+      "textRight": 132,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.categories",
+      "tag": "section",
+      "top": 805,
+      "height": 250,
+      "words": 5,
+      "media": 4,
+      "middle": 16,
+      "heading": null,
+      "left": 49,
+      "right": 49,
+      "textLeft": 68,
+      "textRight": 285,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#experiencias.experience.reveal",
+      "tag": "section",
+      "top": 1055,
+      "height": 425,
+      "words": 35,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Mais do que uma massagem.",
+       "size": 41,
+       "tag": "h2"
+      },
+      "left": 49,
+      "right": 49,
+      "textLeft": 116,
+      "textRight": 84,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#massagens.section.reveal",
+      "tag": "section",
+      "top": 1480,
+      "height": 743,
+      "words": 105,
+      "media": 4,
+      "middle": 20,
+      "heading": {
+       "text": "Encontre o momento",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 65,
+      "textLeft": 65,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#domicilio.home-section.reveal",
+      "tag": "section",
+      "top": 2222,
+      "height": 584,
+      "words": 59,
+      "media": 1,
+      "middle": 81,
+      "heading": {
+       "text": "Seu bem-estar,",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 49,
+      "right": 211,
+      "textLeft": 110,
+      "textRight": 211,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#produtos.section.reveal",
+      "tag": "section",
+      "top": 2806,
+      "height": 1205,
+      "words": 139,
+      "media": 6,
+      "middle": 22,
+      "heading": {
+       "text": "Leve o bem-estar",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 65,
+      "textLeft": 65,
+      "textRight": 65,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#agendamento.booking.reveal",
+      "tag": "section",
+      "top": 4011,
+      "height": 623,
+      "words": 76,
+      "media": 0,
+      "middle": 349,
+      "heading": {
+       "text": "Seu momento",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 129,
+      "right": 159,
+      "textLeft": 129,
+      "textRight": 163,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#sobre.about.reveal",
+      "tag": "section",
+      "top": 4635,
+      "height": 560,
+      "words": 70,
+      "media": 0,
+      "middle": 292,
+      "heading": {
+       "text": "Cuidado de verdade.",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 280,
+      "right": 149,
+      "textLeft": 280,
+      "textRight": 149,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.testimonials.section",
+      "tag": "section",
+      "top": 5195,
+      "height": 581,
+      "words": 58,
+      "media": 0,
+      "middle": 26,
+      "heading": {
+       "text": "Um toque de cuidado.",
+       "size": 46,
+       "tag": "h2"
+      },
+      "left": 95,
+      "right": 106,
+      "textLeft": 95,
+      "textRight": 106,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.final-cta.reveal",
+      "tag": "section",
+      "top": 5776,
+      "height": 471,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Seu corpo",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 504,
+      "right": 504,
+      "textLeft": 504,
+      "textRight": 504,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contato",
+      "tag": "footer",
+      "top": 6247,
+      "height": 270,
+      "words": 32,
+      "media": 0,
+      "middle": 229,
+      "heading": {
+       "text": "ESSENZA",
+       "size": 24,
+       "tag": "span"
+      },
+      "left": 72,
+      "right": 72,
+      "textLeft": 72,
+      "textRight": 72,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+      "size": 69,
+      "top": 254,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Pular para o conteúdo",
+      "side": "left",
+      "px": 15
+     }
+    ],
+    "edges": [
+     {
+      "x": 65,
+      "n": 7
+     },
+     {
+      "x": 108,
+      "n": 6
+     },
+     {
+      "x": 129,
+      "n": 2
+     },
+     {
+      "x": 509,
+      "n": 2
+     },
+     {
+      "x": 749,
+      "n": 2
+     },
+     {
+      "x": 801,
+      "n": 2
+     },
+     {
+      "x": 953,
+      "n": 2
+     },
+     {
+      "x": 398,
+      "n": 1
+     },
+     {
+      "x": 730,
+      "n": 1
+     },
+     {
+      "x": 982,
+      "n": 1
+     },
+     {
+      "x": 1062,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 27,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.81,
+    0.66,
+    0.73,
+    0.56,
+    0.7,
+    0.53,
+    0.57
+   ],
+   "motion": {
+    "elements": 8,
+    "css": 0,
+    "transitions": 8,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6850,
+     "screens": 6.7,
+     "words": 678,
+     "img": 15,
+     "video": 0,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 17,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1519823551278-64ac92734fb1?auto=format&fit",
+      "photo-1515377905703-c4788e51af15?auto=format&fit",
+      "photo-1600334129128-685c5582fd35?auto=format&fit",
+      "photo-1765862835326-14b5070fdde9?auto=format&fit",
+      "photo-1741522509438-a120c0bb5e88?auto=format&fit",
+      "photo-1519824145371-296894a0daa9?auto=format&fit",
+      "photo-1544161515-4ab6ce6db874?auto=format&fit=cr",
+      "photo-1611073615830-9f76902c10fe?auto=format&fit"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+     "words": 5,
+     "chars": 31,
+     "lines": 3,
+     "size": 53,
+     "vw": 6.9,
+     "font": "Arial",
+     "weight": 700,
+     "tracking": -0.057,
+     "leading": 0.99,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.52,
+     "top": 239,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+     "words": 5,
+     "lines": 3,
+     "size": 53,
+     "font": "Arial"
+    },
+    "headings": [
+     {
+      "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+      "words": 5,
+      "chars": 31,
+      "lines": 3,
+      "size": 53,
+      "vw": 6.9,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.057,
+      "leading": 0.99,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.52,
+      "top": 239,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Mais do que uma massagem. Um momento para desacelerar.",
+      "words": 9,
+      "chars": 54,
+      "lines": 3,
+      "size": 41,
+      "vw": 5.3,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.039,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.66,
+      "top": 1089,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Encontre o momento certo para você.",
+      "words": 6,
+      "chars": 35,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.053,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.33,
+      "top": 1537,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Seu bem-estar, onde você estiver.",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.053,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.38,
+      "top": 2611,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Leve o bem-estar para casa.",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.053,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.32,
+      "top": 3164,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Seu momento começa aqui.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.053,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.41,
+      "top": 4387,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cuidado de verdade. De pessoa para pessoa.",
+      "words": 7,
+      "chars": 42,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.053,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.39,
+      "top": 5034,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Um toque de cuidado. Uma sensação de leveza.",
+      "words": 8,
+      "chars": 44,
+      "lines": 2,
+      "size": 30,
+      "vw": 3.9,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.053,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.91,
+      "top": 5522,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 50,
+      "vw": 6.5,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.03,
+      "top": 5692,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 50,
+      "vw": 6.5,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.03,
+      "top": 5692,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 50,
+      "vw": 6.5,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.03,
+      "top": 5692,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Seu corpo pede uma pausa.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 60,
+      "vw": 7.8,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.027,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 6139,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 3,
+     "over2Lines": 2,
+     "statements": 0,
+     "centered": 2,
+     "medianWords": 5,
+     "mixedFontHeadings": 8
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Arial",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Georgia",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      17,
+      19,
+      20,
+      30,
+      41,
+      50,
+      53,
+      60
+     ],
+     "sizeCount": 16,
+     "notLoaded": [],
+     "body": {
+      "font": "Arial",
+      "size": 13,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 46,
+     "max": {
+      "size": 60,
+      "vw": 7.8,
+      "font": "Arial",
+      "text": "Seu corpo"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 13,
+     "microLabelShare": 0.07,
+     "microSamples": [
+      "— UM MOMENTO PARA VOCÊ",
+      "ATENDIMENTO",
+      "EXPERIÊNCIA ESSENZA",
+      "EXPERIÊNCIA ESSENZA",
+      "TOQUE · AROMA · PRESENÇA",
+      "CUIDADO EM CADA TOQUE"
+     ],
+     "upperShare": 0.08,
+     "centerShare": 0.15,
+     "smallText": 86
+    },
+    "eyebrows": [
+     {
+      "text": "— UM MOMENTO PARA VOCÊ",
+      "above": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 200
+     },
+     {
+      "text": "EXPERIÊNCIA ESSENZA",
+      "above": "Mais do que uma massagem. Um momento par",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 1050
+     },
+     {
+      "text": "CUIDADO EM CADA TOQUE",
+      "above": "Encontre o momento certo para você.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 1498
+     },
+     {
+      "text": "O CONFORTO DE ESTAR EM CASA",
+      "above": "Seu bem-estar, onde você estiver.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 2572
+     },
+     {
+      "text": "PEQUENOS RITUAIS, TODOS OS DIAS",
+      "above": "Leve o bem-estar para casa.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 3125
+     },
+     {
+      "text": "UMA PAUSA NA SUA AGENDA",
+      "above": "Seu momento começa aqui.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 4348
+     },
+     {
+      "text": "POR TRÁS DA EXPERIÊNCIA",
+      "above": "Cuidado de verdade. De pessoa para pesso",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 4995
+     },
+     {
+      "text": "EXPERIÊNCIAS QUE FICAM",
+      "above": "Um toque de cuidado. Uma sensação de lev",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 5483
+     },
+     {
+      "text": "PERMITA-SE DESACELERAR",
+      "above": "Seu corpo pede uma pausa.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 6100
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 19,
+      "top": 4554
+     },
+     {
+      "text": "02",
+      "size": 19,
+      "top": 4619
+     },
+     {
+      "text": "03",
+      "size": 19,
+      "top": 4685
+     }
+    ],
+    "color": {
+     "bodyBg": "#f5f1ea",
+     "bodyBgHsl": {
+      "h": 38,
+      "s": 0.35,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e8ded0",
+       "top": 125,
+       "hsl": {
+        "h": 35,
+        "s": 0.34,
+        "l": 0.86
+       }
+      },
+      {
+       "color": "#e8e3d8",
+       "top": 4303,
+       "hsl": {
+        "h": 41,
+        "s": 0.26,
+        "l": 0.88
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#746a63",
+       "share": 0.45
+      },
+      {
+       "color": "#24221f",
+       "share": 0.28
+      },
+      {
+       "color": "#4a382d",
+       "share": 0.08
+      },
+      {
+       "color": "#985e34",
+       "share": 0.05
+      },
+      {
+       "color": "#fefeff",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#985e34",
+      "hsl": {
+       "h": 25,
+       "s": 0.49,
+       "l": 0.4
+      },
+      "fg": "#fefeff"
+     },
+     "lowContrast": [
+      {
+       "text": "O CONFORTO DE ESTAR EM CASA",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#985e34",
+       "bg": "#e8ded0"
+      },
+      {
+       "text": "Não precisa sair de casa. Preparamos tud",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#746a63",
+       "bg": "#e8ded0"
+      },
+      {
+       "text": "Região: [Cidade e região de atendimento]",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#746a63",
+       "bg": "#e8ded0"
+      },
+      {
+       "text": "ESPAÇO PARA A FOTO DO PROFISSIONAL",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#746a63",
+       "bg": "#e8ded0"
+      },
+      {
+       "text": "UMA PAUSA NA SUA AGENDA",
+       "ratio": 4.1,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#985e34",
+       "bg": "#e8e3d8"
+      },
+      {
+       "text": "Conte como você gostaria de receber seu ",
+       "ratio": 4.1,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#746a63",
+       "bg": "#e8e3d8"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 19,
+     "inHero": 4,
+     "radius": "pill",
+     "height": 38,
+     "withShadow": 1,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Pular para o conteúdo",
+      "Agendar massagem",
+      "Conhecer experiências",
+      "Vamos conversar?"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "div.float-card.top → rgba(53, 36, 25, 0.063) 0px 10px 35px 0px",
+      "div.float-card.bottom → rgba(53, 36, 25, 0.063) 0px 10px 35px 0px"
+     ],
+     "gradients": 2,
+     "scrims": 0,
+     "gradientSamples": [
+      "section#experiencias.experience.reveal → linear-gradient(90deg, rgba(35, 26, 18, 0.91), rgba(35, 26, 18, 0.376) 63%, rgba(35, 26, 18, 0.063)), url(\"htt",
+      "section.final-cta.reveal → radial-gradient(rgb(230, 218, 201), rgba(0, 0, 0, 0) 65%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 9,
+     "hairlineSamples": [
+      "div.service-meta 334px",
+      "div.service-meta 334px",
+      "div.service-meta 334px",
+      "div.service-meta 334px",
+      "div.booking-detail 312px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 2,
+     "roundedBoxes": 20,
+     "boxRadius": 17,
+     "squareMedia": 0,
+     "roundedMedia": 13,
+     "mediaRadius": 17,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": false,
+       "rounded": true,
+       "top": 5666
+      }
+     ]
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.56
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": false,
+     "height": 89,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "phosphor"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6850,
+    "margins": {
+     "left": 35,
+     "right": 35
+    },
+    "sections": [
+     {
+      "sel": "section#inicio.hero",
+      "tag": "section",
+      "top": 125,
+      "height": 620,
+      "words": 51,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "RELAXE.",
+       "size": 53,
+       "tag": "h1"
+      },
+      "left": 26,
+      "right": 26,
+      "textLeft": 58,
+      "textRight": 74,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.categories",
+      "tag": "section",
+      "top": 745,
+      "height": 250,
+      "words": 5,
+      "media": 4,
+      "middle": 16,
+      "heading": null,
+      "left": 26,
+      "right": 26,
+      "textLeft": 45,
+      "textRight": 105,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#experiencias.experience.reveal",
+      "tag": "section",
+      "top": 995,
+      "height": 425,
+      "words": 35,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Mais do que uma massagem.",
+       "size": 41,
+       "tag": "h2"
+      },
+      "left": 26,
+      "right": 26,
+      "textLeft": 62,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#massagens.section.reveal",
+      "tag": "section",
+      "top": 1420,
+      "height": 1112,
+      "words": 105,
+      "media": 4,
+      "middle": 30,
+      "heading": {
+       "text": "Encontre o momento",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#domicilio.home-section.reveal",
+      "tag": "section",
+      "top": 2532,
+      "height": 515,
+      "words": 59,
+      "media": 1,
+      "middle": 32,
+      "heading": {
+       "text": "Seu bem-estar,",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 26,
+      "right": 69,
+      "textLeft": 87,
+      "textRight": 69,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#produtos.section.reveal",
+      "tag": "section",
+      "top": 3047,
+      "height": 1255,
+      "words": 139,
+      "media": 6,
+      "middle": 0,
+      "heading": {
+       "text": "Leve o bem-estar",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 35,
+      "right": 35,
+      "textLeft": 35,
+      "textRight": 35,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#agendamento.booking.reveal",
+      "tag": "section",
+      "top": 4303,
+      "height": 600,
+      "words": 76,
+      "media": 0,
+      "middle": 81,
+      "heading": {
+       "text": "Seu momento",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 55,
+      "right": 85,
+      "textLeft": 55,
+      "textRight": 97,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#sobre.about.reveal",
+      "tag": "section",
+      "top": 4903,
+      "height": 560,
+      "words": 70,
+      "media": 0,
+      "middle": 114,
+      "heading": {
+       "text": "Cuidado de verdade.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 108,
+      "right": 85,
+      "textLeft": 108,
+      "textRight": 85,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.testimonials.section",
+      "tag": "section",
+      "top": 5463,
+      "height": 572,
+      "words": 58,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Um toque de cuidado.",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 65,
+      "right": 82,
+      "textLeft": 65,
+      "textRight": 82,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.final-cta.reveal",
+      "tag": "section",
+      "top": 6035,
+      "height": 471,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Seu corpo",
+       "size": 60,
+       "tag": "h2"
+      },
+      "left": 168,
+      "right": 168,
+      "textLeft": 168,
+      "textRight": 168,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contato",
+      "tag": "footer",
+      "top": 6506,
+      "height": 345,
+      "words": 32,
+      "media": 0,
+      "middle": 152,
+      "heading": null,
+      "left": 38,
+      "right": 38,
+      "textLeft": 38,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+      "size": 53,
+      "top": 239,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Pular para o conteúdo",
+      "side": "left",
+      "px": 15
+     }
+    ],
+    "edges": [
+     {
+      "x": 35,
+      "n": 8
+     },
+     {
+      "x": 55,
+      "n": 8
+     },
+     {
+      "x": 399,
+      "n": 4
+     },
+     {
+      "x": 275,
+      "n": 2
+     },
+     {
+      "x": 416,
+      "n": 2
+     },
+     {
+      "x": 515,
+      "n": 2
+     },
+     {
+      "x": 544,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 27,
+    "bodySize": 13,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 11,
+   "filled": [
+    0.68,
+    0.84,
+    0.61,
+    0.79,
+    0.51,
+    0.45,
+    0.92,
+    0.63,
+    0.67,
+    0.58,
+    0.46
+   ],
+   "motion": {
+    "elements": 8,
+    "css": 0,
+    "transitions": 8,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 8502,
+     "screens": 10.1,
+     "words": 666,
+     "img": 15,
+     "video": 0,
+     "canvas": 0,
+     "svg": 3,
+     "sections": 10,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 13,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1741522509438-a120c0bb5e88?auto=format&fit",
+      "photo-1519824145371-296894a0daa9?auto=format&fit",
+      "photo-1544161515-4ab6ce6db874?auto=format&fit=cr",
+      "photo-1611073615830-9f76902c10fe?auto=format&fit",
+      "photo-1635575066917-e788c2bd06b7?auto=format&fit",
+      "photo-1763839221812-b01e3ff8f2a9?auto=format&fit",
+      "photo-1580052614034-c55d20bfee3b?auto=format&fit",
+      "photo-1611255550543-b5ecb01dfddc?auto=format&fit"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+     "words": 5,
+     "chars": 31,
+     "lines": 4,
+     "size": 47,
+     "vw": 12.1,
+     "font": "Arial",
+     "weight": 700,
+     "tracking": -0.043,
+     "leading": 0.99,
+     "upper": true,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.79,
+     "top": 175,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+     "words": 5,
+     "lines": 4,
+     "size": 47,
+     "font": "Arial"
+    },
+    "headings": [
+     {
+      "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+      "words": 5,
+      "chars": 31,
+      "lines": 4,
+      "size": 47,
+      "vw": 12.1,
+      "font": "Arial",
+      "weight": 700,
+      "tracking": -0.043,
+      "leading": 0.99,
+      "upper": true,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 175,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Mais do que uma massagem. Um momento para desacelerar.",
+      "words": 9,
+      "chars": 54,
+      "lines": 4,
+      "size": 31,
+      "vw": 7.9,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.032,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 1339,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Encontre o momento certo para você.",
+      "words": 6,
+      "chars": 35,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.031,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 1739,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Seu bem-estar, onde você estiver.",
+      "words": 5,
+      "chars": 33,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.031,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 3014,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Leve o bem-estar para casa.",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.031,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 3529,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Seu momento começa aqui.",
+      "words": 4,
+      "chars": 24,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.031,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.79,
+      "top": 5107,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cuidado de verdade. De pessoa para pessoa.",
+      "words": 7,
+      "chars": 42,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.031,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.83,
+      "top": 6393,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Um toque de cuidado. Uma sensação de leveza.",
+      "words": 8,
+      "chars": 44,
+      "lines": 2,
+      "size": 32,
+      "vw": 8.2,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.031,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.9,
+      "top": 6849,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 50,
+      "vw": 12.8,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.05,
+      "top": 7040,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 50,
+      "vw": 12.8,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.05,
+      "top": 7254,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "“",
+      "words": 1,
+      "chars": 1,
+      "lines": 1,
+      "size": 50,
+      "vw": 12.8,
+      "font": "Georgia",
+      "weight": 400,
+      "tracking": 0,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.05,
+      "top": 7469,
+      "tag": "span",
+      "kind": "heading"
+     },
+     {
+      "text": "Seu corpo pede uma pausa.",
+      "words": 5,
+      "chars": 25,
+      "lines": 2,
+      "size": 43,
+      "vw": 11,
+      "font": "Arial",
+      "weight": 500,
+      "tracking": -0.023,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 7795,
+      "mixedFonts": [
+       "Arial",
+       "Georgia italic"
+      ],
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 12,
+     "maxLines": 4,
+     "over2Lines": 2,
+     "statements": 0,
+     "centered": 2,
+     "medianWords": 5,
+     "mixedFontHeadings": 8
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Arial",
+       "share": 0.92,
+       "mono": false
+      },
+      {
+       "family": "Georgia",
+       "share": 0.08,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      31,
+      32,
+      43,
+      47,
+      50
+     ],
+     "sizeCount": 17,
+     "notLoaded": [],
+     "body": {
+      "font": "Arial",
+      "size": 13,
+      "leading": 1.6,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": null
+     },
+     "measureChars": 50,
+     "max": {
+      "size": 50,
+      "vw": 12.8,
+      "font": "Georgia",
+      "text": "“"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 13,
+     "microLabelShare": 0.071,
+     "microSamples": [
+      "— UM MOMENTO PARA VOCÊ",
+      "ATENDIMENTO",
+      "EXPERIÊNCIA ESSENZA",
+      "EXPERIÊNCIA ESSENZA",
+      "TOQUE · AROMA · PRESENÇA",
+      "CUIDADO EM CADA TOQUE"
+     ],
+     "upperShare": 0.08,
+     "centerShare": 0.14,
+     "smallText": 84
+    },
+    "eyebrows": [
+     {
+      "text": "— UM MOMENTO PARA VOCÊ",
+      "above": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 139
+     },
+     {
+      "text": "EXPERIÊNCIA ESSENZA",
+      "above": "Mais do que uma massagem. Um momento par",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 1300
+     },
+     {
+      "text": "CUIDADO EM CADA TOQUE",
+      "above": "Encontre o momento certo para você.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 1708
+     },
+     {
+      "text": "O CONFORTO DE ESTAR EM CASA",
+      "above": "Seu bem-estar, onde você estiver.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 2975
+     },
+     {
+      "text": "PEQUENOS RITUAIS, TODOS OS DIAS",
+      "above": "Leve o bem-estar para casa.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 3498
+     },
+     {
+      "text": "UMA PAUSA NA SUA AGENDA",
+      "above": "Seu momento começa aqui.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 5068
+     },
+     {
+      "text": "POR TRÁS DA EXPERIÊNCIA",
+      "above": "Cuidado de verdade. De pessoa para pesso",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 6354
+     },
+     {
+      "text": "EXPERIÊNCIAS QUE FICAM",
+      "above": "Um toque de cuidado. Uma sensação de lev",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 6810
+     },
+     {
+      "text": "Cliente demonstrativo 01",
+      "above": "“",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 7172
+     },
+     {
+      "text": "Cliente demonstrativo 02",
+      "above": "“",
+      "upper": false,
+      "tracked": false,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 7387
+     },
+     {
+      "text": "PERMITA-SE DESACELERAR",
+      "above": "Seu corpo pede uma pausa.",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 10,
+      "top": 7756
+     }
+    ],
+    "numbered": [
+     {
+      "text": "01",
+      "size": 19,
+      "top": 5280
+     },
+     {
+      "text": "02",
+      "size": 19,
+      "top": 5346
+     },
+     {
+      "text": "03",
+      "size": 19,
+      "top": 5411
+     }
+    ],
+    "color": {
+     "bodyBg": "#f5f1ea",
+     "bodyBgHsl": {
+      "h": 38,
+      "s": 0.35,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#e8ded0",
+       "top": 104,
+       "hsl": {
+        "h": 35,
+        "s": 0.34,
+        "l": 0.86
+       }
+      },
+      {
+       "color": "#f5f1ea",
+       "top": 104,
+       "hsl": {
+        "h": 38,
+        "s": 0.35,
+        "l": 0.94
+       }
+      },
+      {
+       "color": "#e8e3d8",
+       "top": 5033,
+       "hsl": {
+        "h": 41,
+        "s": 0.26,
+        "l": 0.88
+       }
+      },
+      {
+       "color": "#fdfaf7",
+       "top": 5505,
+       "hsl": {
+        "h": 30,
+        "s": 0.6,
+        "l": 0.98
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#746a63",
+       "share": 0.46
+      },
+      {
+       "color": "#24221f",
+       "share": 0.27
+      },
+      {
+       "color": "#4a382d",
+       "share": 0.08
+      },
+      {
+       "color": "#985e34",
+       "share": 0.05
+      },
+      {
+       "color": "#fefeff",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#985e34",
+      "hsl": {
+       "h": 25,
+       "s": 0.49,
+       "l": 0.4
+      },
+      "fg": "#fefeff"
+     },
+     "lowContrast": [
+      {
+       "text": "O CONFORTO DE ESTAR EM CASA",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#985e34",
+       "bg": "#e8ded0"
+      },
+      {
+       "text": "Não precisa sair de casa. Preparamos tud",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 13,
+       "fg": "#746a63",
+       "bg": "#e8ded0"
+      },
+      {
+       "text": "Região: [Cidade e região de atendimento]",
+       "ratio": 4,
+       "need": 4.5,
+       "size": 10,
+       "fg": "#746a63",
+       "bg": "#e8ded0"
+      }
+     ]
+    },
+    "buttons": {
+     "count": 18,
+     "inHero": 3,
+     "radius": "pill",
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Pular para o conteúdo",
+      "Agendar massagem",
+      "Conhecer experiências"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 2,
+     "shadowOverlay": 1,
+     "shadowSamples": [
+      "div.float-card.top → rgba(53, 36, 25, 0.063) 0px 10px 35px 0px",
+      "div.float-card.bottom → rgba(53, 36, 25, 0.063) 0px 10px 35px 0px"
+     ],
+     "gradients": 2,
+     "scrims": 0,
+     "gradientSamples": [
+      "section#experiencias.experience.reveal → linear-gradient(90deg, rgba(35, 26, 18, 0.91), rgba(35, 26, 18, 0.376) 63%, rgba(35, 26, 18, 0.063)), url(\"htt",
+      "section.final-cta.reveal → radial-gradient(rgb(230, 218, 201), rgba(0, 0, 0, 0) 65%)"
+     ],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.booking-detail 309px",
+      "div.booking-detail 309px",
+      "div.booking-detail 309px",
+      "footer#contato 390px",
+      "div.footer-bottom 351px"
+     ],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 2,
+     "roundedBoxes": 20,
+     "boxRadius": 17,
+     "squareMedia": 0,
+     "roundedMedia": 3,
+     "mediaRadius": 24,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "bg-image",
+      "ratio": 0.42
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": false,
+     "height": 72,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "phosphor"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 8502,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section#inicio.hero",
+      "tag": "section",
+      "top": 104,
+      "height": 790,
+      "words": 51,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "RELAXE.",
+       "size": 47,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 41,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.categories",
+      "tag": "section",
+      "top": 894,
+      "height": 371,
+      "words": 5,
+      "media": 0,
+      "middle": 10,
+      "heading": null,
+      "left": 16,
+      "right": 16,
+      "textLeft": 28,
+      "textRight": 112,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#experiencias.experience.reveal",
+      "tag": "section",
+      "top": 1265,
+      "height": 395,
+      "words": 35,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Mais do que uma massagem.",
+       "size": 31,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 41,
+      "textRight": 38,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#massagens.section.reveal",
+      "tag": "section",
+      "top": 1660,
+      "height": 1010,
+      "words": 105,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Encontre o momento",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 19,
+      "right": 19,
+      "textLeft": 19,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#domicilio.home-section.reveal",
+      "tag": "section",
+      "top": 2670,
+      "height": 780,
+      "words": 59,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Seu bem-estar,",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 44,
+      "textRight": 62,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.section-heading",
+      "tag": "div",
+      "top": 3498,
+      "height": 161,
+      "words": 20,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Leve o bem-estar",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 19,
+      "right": 125,
+      "textLeft": 19,
+      "textRight": 125,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div#products.products-grid",
+      "tag": "div",
+      "top": 3789,
+      "height": 1121,
+      "words": 96,
+      "media": 6,
+      "middle": 14,
+      "heading": {
+       "text": "Óleo essencial de Lavanda",
+       "size": 16,
+       "tag": "h3"
+      },
+      "left": 19,
+      "right": 19,
+      "textLeft": 19,
+      "textRight": 23,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#agendamento.booking.reveal",
+      "tag": "section",
+      "top": 5033,
+      "height": 996,
+      "words": 76,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Seu momento",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 41,
+      "right": 55,
+      "textLeft": 41,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#sobre.about.reveal",
+      "tag": "section",
+      "top": 6028,
+      "height": 734,
+      "words": 70,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Cuidado de verdade.",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 34,
+      "right": 41,
+      "textLeft": 34,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.testimonials.section",
+      "tag": "section",
+      "top": 6762,
+      "height": 954,
+      "words": 58,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Um toque de cuidado.",
+       "size": 32,
+       "tag": "h2"
+      },
+      "left": 27,
+      "right": 27,
+      "textLeft": 27,
+      "textRight": 27,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.final-cta.reveal",
+      "tag": "section",
+      "top": 7716,
+      "height": 362,
+      "words": 18,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Seu corpo",
+       "size": 43,
+       "tag": "h2"
+      },
+      "left": 39,
+      "right": 39,
+      "textLeft": 39,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contato",
+      "tag": "footer",
+      "top": 8079,
+      "height": 423,
+      "words": 32,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 20,
+      "right": 40,
+      "textLeft": 20,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [
+     {
+      "top": 5972,
+      "height": 284
+     }
+    ],
+    "h1s": [
+     {
+      "text": "RELAXE. RESPIRE. CUIDE DE VOCÊ.",
+      "size": 47,
+      "top": 175,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [
+     {
+      "text": "Pular para o conteúdo",
+      "side": "left",
+      "px": 15
+     }
+    ],
+    "edges": [
+     {
+      "x": 19,
+      "n": 9
+     },
+     {
+      "x": 34,
+      "n": 9
+     },
+     {
+      "x": 202,
+      "n": 5
+     },
+     {
+      "x": 44,
+      "n": 3
+     }
+    ],
+    "leftBlocks": 26,
+    "bodySize": 11,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "2 headline(s) wrap past two lines at 1440px: \"RELAXE. RESPIRE. CUIDE DE VOCÊ.\" → 3 lines (5 words, 69px); \"Mais do que uma massagem. Um momento para desace\" → 3 lines (9 words, 41px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "mixed-font-headline",
+   "width": 1440,
+   "message": "8 headline(s) switch typeface or to italic mid-line (the \"one italic serif word\" move).",
+   "fix": "Set the whole headline in one face. Emphasis comes from the words.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "9 eyebrow/kicker label(s) above headings: \"— UM MOMENTO PARA VOCÊ\" above \"RELAXE. RESPIRE. CUIDE DE VOCÊ.\"; \"EXPERIÊNCIA ESSENZA\" above \"Mais do que uma massagem. Um momento par\"; \"CUIDADO EM CADA TOQUE\" above \"Encontre o momento certo para você.\"; \"O CONFORTO DE ESTAR EM CASA\" above \"Seu bem-estar, onde você estiver.\"; \"PEQUENOS RITUAIS, TODOS OS DIAS\" above \"Leve o bem-estar para casa.\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "numbering",
+   "width": 1440,
+   "message": "Decorative index numbers: \"01\", \"02\", \"03\"",
+   "fix": "Remove them. If order truly matters, write it into the words (\"First, …\") or use a real <ol>.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "13 tiny uppercase letter-spaced labels (e.g. \"— UM MOMENTO PARA VOCÊ\", \"ATENDIMENTO\", \"EXPERIÊNCIA ESSENZA\", \"EXPERIÊNCIA ESSENZA\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "gradient",
+   "width": 1440,
+   "message": "2 gradient fill(s): section#experiencias.experience.reveal → linear-gradient(90deg, rgba(35, 26, 18, 0.91), rgba(35, 26, 18, 0.376) 63%, rgba(35, 26, 18, 0.063)), url(\"htt | section.final-cta.reveal → radial-gradient(rgb(230, 218, 201), rgba(0, 0, 0, 0) 65%)",
+   "fix": "Use a flat colour or a real image. The only gradient allowed by default is a neutral scrim over a photo for legibility.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "2 box-shadow(s) on elements at rest: div.float-card.top → rgba(53, 36, 25, 0.063) 0px 10px 35px 0px | div.float-card.bottom → rgba(53, 36, 25, 0.063) 0px 10px 35px 0px",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "button-fx",
+   "width": 1440,
+   "message": "Buttons with shadow/glow.",
+   "fix": "Flat fill, one colour.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "9 thin rule(s)/divider line(s): div.service-meta 312px | div.service-meta 312px | div.service-meta 312px | div.service-meta 312px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "glass",
+   "width": 1440,
+   "message": "2 backdrop-blur surfaces.",
+   "fix": "One blurred sticky bar at most; glass cards are a tell.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #f5f1ea, section #e8e3d8).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "contrast",
+   "width": 1440,
+   "message": "Low-contrast text: \"O CONFORTO DE ESTAR EM CASA\" 4:1 needs 4.5:1; \"Não precisa sair de casa. Preparamos tud\" 4:1 needs 4.5:1; \"Região: [Cidade e região de atendimento]\" 4:1 needs 4.5:1; \"ESPAÇO PARA A FOTO DO PROFISSIONAL\" 4:1 needs 4.5:1",
+   "fix": "Darken or lighten the text colour.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "17 different font sizes (8, 9, 10, 11, 12, 13, 14, 15, 17, 19, 20, 24, 41, 46, 50, 60, 69).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 13px (the size most of the running text is set in).",
+   "fix": "Body copy 16–20px. Map small sizes from blueprints onto your body step.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "86 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "edge-text",
+   "width": 1440,
+   "message": "1 text block(s) sit within 16px of the screen edge: \"Pular para o conteúdo\" (15px from the left)",
+   "fix": "Keep text inside the page margin (16–32px or more). Only display type deliberately bled past the edge may touch it.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 11 different lines (65px, 108px, 129px, 509px, 749px, 801px, 953px); the three most used hold only 56% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 8 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 768,
+   "message": "2 headline(s) wrap past two lines at 768px: \"RELAXE. RESPIRE. CUIDE DE VOCÊ.\" → 3 lines (5 words, 53px); \"Mais do que uma massagem. Um momento para desace\" → 3 lines (9 words, 41px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 32px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "covered-text",
+   "width": 768,
+   "message": "Large text lies under another element at some scroll position: \"Cuidado de verdade. De pessoa para pessoa.\" (screen 5, 25% hidden)",
+   "fix": "Nothing may sit on top of a headline or statement. Move the picture, shorten the pinned run, or raise the text above it (z-index) and give it a ground."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "2 headline(s) wrap past two lines at 390px: \"RELAXE. RESPIRE. CUIDE DE VOCÊ.\" → 4 lines (5 words, 47px); \"Mais do que uma massagem. Um momento para desace\" → 4 lines (9 words, 31px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  },
+  {
+   "level": "WARN",
+   "id": "edge-text",
+   "width": 390,
+   "message": "1 text block(s) sit 12–15px from the phone's edge: \"Pular para o conteúdo\" (15px)",
+   "fix": "The page margin is 16–20px on a phone; the header and the corner labels sit on it too."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "Z:\\Dev\\roger site\\.taste-skill\\before\\desktop-fold.jpg",
+   "pages": [
+    "Z:\\Dev\\roger site\\.taste-skill\\before\\desktop-page-01.jpg",
+    "Z:\\Dev\\roger site\\.taste-skill\\before\\desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "Z:\\Dev\\roger site\\.taste-skill\\before\\tablet-fold.jpg",
+   "pages": [
+    "Z:\\Dev\\roger site\\.taste-skill\\before\\tablet-page-01.jpg",
+    "Z:\\Dev\\roger site\\.taste-skill\\before\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "Z:\\Dev\\roger site\\.taste-skill\\before\\mobile-fold.jpg",
+   "pages": [
+    "Z:\\Dev\\roger site\\.taste-skill\\before\\mobile-page-01.jpg",
+    "Z:\\Dev\\roger site\\.taste-skill\\before\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

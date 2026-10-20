@@ -1,0 +1,2058 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Essenza | Massoterapia no espaço ou na sua casa</title>
+    <meta
+      name="description"
+      content="Massoterapia personalizada, aromaterapia e atendimento a domicílio. Monte seu pedido de horário e envie pelo WhatsApp."
+    />
+    <meta property="og:title" content="Essenza | Massoterapia no espaço ou na sua casa" />
+    <meta
+      property="og:description"
+      content="Massoterapia personalizada, aromaterapia e cuidado no conforto da sua casa."
+    />
+    <meta
+      property="og:image"
+      content="https://images.unsplash.com/photo-1620733723572-11c53f73a416?auto=format&fit=crop&w=1200&q=80"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="theme-color" content="#e2e0dc" />
+    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiNmNWYxZWEiLz48dGV4dCB4PSIzMiIgeT0iNDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iNDgiIGZpbGw9IiM0YTM4MmQiPuKcszwvdGV4dD48L3N2Zz4K" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;600&display=swap" rel="stylesheet" />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <script>
+      document.documentElement.classList.add('js');
+    </script>
+    <style>
+      /* TOKENS: cores tiradas do próprio assunto (linho, nogueira, eucalipto) e cinco passos de tipo */
+      :root {
+        --bg: #e2e0dc;
+        --surface: #d6d0c8;
+        --ink: #1c1814;
+        --muted: #4a433c;
+        --accent: #2f4a3c;
+        --accent-press: #233a2e;
+        --accent-ink: #ffffff;
+        --field: #2a211b;
+        --field-raised: #3a2e26;
+        --field-ink: #efedea;
+        --field-muted: #c9bfb4;
+
+        --font: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+        --step-small: clamp(0.8125rem, 0.79rem + 0.1vw, 0.875rem);
+        --step-body: clamp(1.0625rem, 1rem + 0.25vw, 1.1875rem);
+        --step-lead: clamp(1.25rem, 1.1rem + 0.7vw, 1.625rem);
+        --step-statement: clamp(1.5rem, 1.2rem + 1.2vw, 2.25rem);
+        --step-head: clamp(2rem, 1.3rem + 3.2vw, 4rem);
+
+        --m: clamp(20px, 5.5vw, 88px);
+        --g: clamp(12px, 1.7vw, 24px);
+        --section: clamp(96px, 11vw, 200px);
+        --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+        --header-h: 76px;
+      }
+      *,
+      *::before,
+      *::after {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: var(--header-h);
+        -webkit-text-size-adjust: 100%;
+      }
+      body {
+        margin: 0;
+        background: var(--field);
+        color: var(--ink);
+        font-family: var(--font);
+        font-size: var(--step-body);
+        line-height: 1.5;
+        font-variant-numeric: tabular-nums;
+        -webkit-font-smoothing: antialiased;
+      }
+      main {
+        position: relative;
+        z-index: 1;
+        background: var(--bg);
+      }
+      img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+      a {
+        color: inherit;
+      }
+      button,
+      input,
+      select {
+        font: inherit;
+        color: inherit;
+      }
+      button {
+        cursor: pointer;
+      }
+      h1,
+      h2,
+      h3,
+      p,
+      ul,
+      ol,
+      figure,
+      blockquote {
+        margin: 0;
+      }
+      ul,
+      ol {
+        padding: 0;
+        list-style: none;
+      }
+      h1,
+      h2 {
+        font-weight: 400;
+        letter-spacing: -0.02em;
+        line-height: 1;
+        text-wrap: balance;
+      }
+      h2 {
+        font-size: var(--step-head);
+      }
+      h3 {
+        font-size: var(--step-lead);
+        font-weight: 400;
+        line-height: 1.15;
+        letter-spacing: -0.01em;
+      }
+      p {
+        text-wrap: pretty;
+      }
+      :focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+      ::selection {
+        background: var(--accent);
+        color: var(--accent-ink);
+      }
+      .ph {
+        vertical-align: -0.12em;
+      }
+      .wrap {
+        padding-inline: var(--m);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        column-gap: var(--g);
+      }
+      .section {
+        padding-block: var(--section);
+      }
+      .small {
+        font-size: var(--step-small);
+        color: var(--muted);
+      }
+      .skip {
+        position: fixed;
+        left: var(--m);
+        top: -80px;
+        z-index: 50;
+        background: var(--ink);
+        color: var(--bg);
+        padding: 12px 18px;
+      }
+      .skip:focus {
+        top: 12px;
+      }
+
+      /* BOTÕES: um formato só, cantos retos */
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 12px;
+        min-height: 52px;
+        padding: 14px 24px;
+        border: 0;
+        background: var(--accent);
+        color: var(--accent-ink);
+        font-weight: 600;
+        font-size: var(--step-body);
+        text-decoration: none;
+        transition:
+          background-color 0.25s ease,
+          transform 0.2s var(--ease-out);
+      }
+      .button:hover {
+        background: var(--accent-press);
+      }
+      .button:active {
+        transform: scale(0.97);
+      }
+      .button .ph {
+        transition: transform 0.35s var(--ease-out);
+      }
+      .button:hover .ph {
+        transform: translate(3px, -3px);
+      }
+      .button.light {
+        background: var(--field-ink);
+        color: var(--field);
+      }
+      .button.light:hover {
+        background: #ffffff;
+      }
+      .button:disabled {
+        opacity: 0.45;
+        cursor: not-allowed;
+        transform: none;
+      }
+      .link {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        min-height: 44px;
+        text-decoration: underline;
+        text-decoration-thickness: 1px;
+        text-underline-offset: 0.3em;
+        transition: text-underline-offset 0.3s var(--ease-out);
+      }
+      .link:hover {
+        text-underline-offset: 0.45em;
+      }
+
+      /* CABEÇALHO: transparente sobre a foto, chão de linho depois dela */
+      .site-header {
+        position: fixed;
+        inset: 0 0 auto;
+        z-index: 20;
+        height: var(--header-h);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 24px;
+        padding-inline: var(--m);
+        transition: background-color 0.35s ease;
+      }
+      .site-header.is-solid {
+        background: var(--bg);
+      }
+      .letterhead {
+        font-size: var(--step-small);
+        line-height: 1.25;
+        text-decoration: none;
+      }
+      .letterhead strong {
+        display: block;
+        font-weight: 600;
+        font-size: var(--step-body);
+        letter-spacing: -0.01em;
+      }
+      .nav {
+        display: flex;
+        align-items: center;
+        gap: 28px;
+        font-size: var(--step-small);
+      }
+      .nav-links {
+        display: flex;
+      }
+      .nav-links li:not(:last-child)::after {
+        content: ',\00a0';
+      }
+      .nav-links a {
+        text-decoration: underline 2px transparent;
+        text-underline-offset: 0.5em;
+        transition:
+          text-decoration-color 0.25s ease,
+          text-underline-offset 0.35s var(--ease-out);
+      }
+      .nav-links a:hover,
+      .nav-links a[aria-current='true'] {
+        text-decoration-color: currentColor;
+        text-underline-offset: 0.3em;
+      }
+      .bag-button {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        min-height: 44px;
+        padding: 0 4px;
+        border: 0;
+        background: none;
+        font-size: var(--step-small);
+      }
+      .bag-button .ph {
+        font-size: 20px;
+      }
+      .header-book {
+        min-height: 44px;
+        padding: 10px 18px;
+        font-size: var(--step-small);
+      }
+      .menu-toggle {
+        display: none;
+        min-height: 44px;
+        padding: 0 4px;
+        border: 0;
+        background: none;
+        font-size: var(--step-small);
+        text-decoration: underline;
+        text-underline-offset: 0.3em;
+      }
+
+      /* HERO: uma foto de ponta a ponta, título no canto inferior */
+      .hero {
+        position: relative;
+        height: 100svh;
+        min-height: 620px;
+        overflow: hidden;
+        background: var(--surface);
+      }
+      .hero-photos img {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        transition: opacity 1.6s ease;
+      }
+      .hero-photos img.is-on {
+        opacity: 1;
+      }
+      .hero-photos img:first-child {
+        opacity: 1;
+      }
+      .js .hero-photos img:first-child:not(.is-on) {
+        opacity: 0;
+      }
+      .hero-photos img.is-on {
+        animation: drift 9s linear both;
+      }
+      @keyframes drift {
+        from {
+          transform: scale(1.07);
+        }
+        to {
+          transform: scale(1);
+        }
+      }
+      .hero-copy {
+        position: absolute;
+        inset: auto var(--m) clamp(28px, 4vw, 48px);
+        display: grid;
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+        column-gap: var(--g);
+        align-items: end;
+      }
+      .hero h1 {
+        grid-column: 1 / 8;
+        font-size: var(--step-head);
+        max-width: 18ch;
+      }
+      .hero-aside {
+        grid-column: 9 / 13;
+        justify-self: end;
+        display: grid;
+        gap: 20px;
+        width: min(100%, 25rem);
+        background: var(--bg);
+        padding: 22px 24px 24px;
+      }
+      .hero-actions {
+        display: flex;
+        align-items: center;
+        gap: 8px 24px;
+        flex-wrap: wrap;
+      }
+
+      /* MASSAGENS: faixa de painéis desiguais */
+      .services-head {
+        grid-column: 3 / 12;
+        margin-bottom: 64px;
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 32px;
+      }
+      .services-head p {
+        max-width: 34ch;
+        color: var(--ink);
+      }
+      .band {
+        display: flex;
+        height: 68svh;
+        min-height: 460px;
+      }
+      .band li {
+        flex: var(--grow) 1 0;
+        min-width: 0;
+        transition: flex-grow 0.5s var(--ease-out);
+      }
+      .band li:nth-child(1) {
+        --grow: 5;
+      }
+      .band li:nth-child(2) {
+        --grow: 2;
+      }
+      .band li:nth-child(3) {
+        --grow: 3;
+      }
+      .band li:nth-child(4) {
+        --grow: 2;
+      }
+      .band a {
+        position: relative;
+        display: block;
+        height: 100%;
+        overflow: hidden;
+        text-decoration: none;
+        background: var(--surface);
+      }
+      .band img {
+        transition: transform 0.9s var(--ease-out);
+      }
+      .band a:hover img,
+      .band a:focus-visible img {
+        transform: scale(1.04);
+      }
+      .band-label {
+        position: absolute;
+        left: 0;
+        bottom: 0;
+        max-width: calc(100% - 16px);
+        background: var(--bg);
+        padding: 14px 18px 16px;
+      }
+      .band li:first-child .band-label {
+        padding-left: var(--m);
+      }
+      .band-label strong {
+        display: block;
+        font-weight: 400;
+        font-size: var(--step-lead);
+        line-height: 1.1;
+        letter-spacing: -0.01em;
+      }
+      .band-label span {
+        font-size: var(--step-small);
+        color: var(--muted);
+      }
+      @media (hover: hover) and (min-width: 901px) {
+        .band:hover li:hover,
+        .band li:focus-within {
+          --grow: 6;
+        }
+      }
+      .service-notes {
+        margin-top: 40px;
+        row-gap: 40px;
+      }
+      .service-notes li {
+        grid-column: span 3;
+        display: grid;
+        align-content: start;
+        gap: 8px;
+        max-width: 36ch;
+      }
+      .service-notes strong {
+        font-weight: 600;
+      }
+      .service-notes .small {
+        color: var(--muted);
+      }
+      .service-notes .link {
+        min-height: 40px;
+        width: fit-content;
+      }
+
+      /* EM CASA: mosaico com foto larga, bloco de cor e fatos */
+      .home-top {
+        align-items: end;
+      }
+      .home-top h2 {
+        grid-column: 1 / 8;
+      }
+      .home-lead {
+        grid-column: 1 / 7;
+        margin-top: 24px;
+        font-size: var(--step-lead);
+        line-height: 1.35;
+      }
+      .home-top .button {
+        grid-column: 9 / 13;
+        grid-row: 2;
+        justify-self: end;
+      }
+      .home-tiles {
+        margin-top: 72px;
+        row-gap: 16px;
+        align-items: start;
+      }
+      .home-photo {
+        grid-column: 1 / 9;
+        position: relative;
+        aspect-ratio: 16 / 10;
+        background: var(--surface);
+        overflow: hidden;
+      }
+      .home-photo p {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: min(340px, 48%);
+        background: var(--bg);
+        padding: 20px 22px 24px;
+      }
+      .home-side {
+        grid-column: 9 / 13;
+        display: grid;
+        gap: 28px;
+      }
+      .plan-tile {
+        aspect-ratio: 4 / 3.6;
+        background: var(--field);
+        color: var(--field-ink);
+        padding: 22px;
+        display: grid;
+        grid-template-rows: 1fr auto;
+        gap: 16px;
+      }
+      .plan-tile svg {
+        width: 100%;
+        height: 100%;
+      }
+      .plan-tile p {
+        font-size: var(--step-small);
+        color: var(--field-muted);
+      }
+      .plan-dot {
+        transform-box: fill-box;
+        transform-origin: center;
+        animation: pulse 2.8s ease-in-out infinite;
+      }
+      @keyframes pulse {
+        0%,
+        100% {
+          transform: scale(1);
+          opacity: 1;
+        }
+        50% {
+          transform: scale(1.35);
+          opacity: 0.75;
+        }
+      }
+      .facts {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px 16px;
+        margin: 0;
+        font-size: var(--step-small);
+      }
+      .facts dt {
+        color: var(--muted);
+      }
+      .facts dd {
+        margin: 2px 0 0;
+        font-size: var(--step-body);
+        line-height: 1.3;
+      }
+
+      /* COMO FUNCIONA: fotos descendo em diagonal */
+      .steps {
+        align-items: start;
+      }
+      .step-photo {
+        overflow: hidden;
+        background: var(--surface);
+      }
+      .step-photo.one {
+        grid-column: 1 / 5;
+        grid-row: 1 / 3;
+        aspect-ratio: 3 / 4;
+      }
+      .steps-intro {
+        grid-column: 6 / 12;
+        grid-row: 1;
+        display: grid;
+        gap: 40px;
+      }
+      .step-photo.two {
+        grid-column: 6 / 9;
+        grid-row: 2;
+        aspect-ratio: 1;
+        margin-top: 56px;
+      }
+      .step-text.two {
+        grid-column: 9 / 13;
+        grid-row: 2;
+        margin-top: 56px;
+      }
+      .step-photo.three {
+        grid-column: 7 / 13;
+        grid-row: 3;
+        aspect-ratio: 16 / 10;
+        margin-top: 140px;
+      }
+      .step-text.three {
+        grid-column: 2 / 6;
+        grid-row: 3;
+        margin-top: 140px;
+      }
+      .step-text {
+        max-width: 36ch;
+      }
+      .step-text b {
+        font-weight: 600;
+      }
+
+      /* AGENDAR: o pedido se escreve como mensagem */
+      .booking {
+        background: var(--field);
+        color: var(--field-ink);
+      }
+      .booking-head {
+        align-items: end;
+        margin-bottom: 72px;
+      }
+      .booking-head h2 {
+        grid-column: 1 / 8;
+      }
+      .booking-head p {
+        grid-column: 8 / 13;
+        color: var(--field-muted);
+        max-width: 40ch;
+      }
+      .booking-body {
+        align-items: start;
+        row-gap: 48px;
+      }
+      .booking form {
+        grid-column: 1 / 7;
+        display: grid;
+        gap: 22px;
+      }
+      .field {
+        display: grid;
+        gap: 8px;
+        font-size: var(--step-small);
+        color: var(--field-muted);
+      }
+      .field-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 16px;
+      }
+      .field input,
+      .field select {
+        width: 100%;
+        min-width: 0;
+        min-height: 52px;
+        padding: 12px 14px;
+        border: 1px solid #6b5d51;
+        border-radius: 0;
+        background: var(--field-raised);
+        color: var(--field-ink);
+        font-size: var(--step-body);
+        transition: border-color 0.2s ease;
+        color-scheme: dark;
+      }
+      .field input:hover,
+      .field select:hover {
+        border-color: #9a8b7d;
+      }
+      .field input:focus-visible,
+      .field select:focus-visible {
+        outline: 2px solid var(--field-ink);
+        outline-offset: 0;
+      }
+      .field input::placeholder {
+        color: #a3978b;
+      }
+      .booking form .button {
+        justify-self: start;
+        margin-top: 6px;
+      }
+      .booking form .small {
+        color: var(--field-muted);
+        max-width: 52ch;
+      }
+      .message {
+        grid-column: 8 / 13;
+        position: sticky;
+        top: calc(var(--header-h) + 24px);
+        display: grid;
+        gap: 14px;
+      }
+      .message-label {
+        font-size: var(--step-small);
+        color: var(--field-muted);
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .message-label .ph {
+        font-size: 20px;
+      }
+      .message-body {
+        background: var(--field-raised);
+        padding: 26px 28px 30px;
+        font-size: var(--step-lead);
+        line-height: 1.4;
+        white-space: pre-line;
+        min-height: 12em;
+      }
+      .message-body .slot {
+        font-weight: 600;
+        transition: background-color 0.6s ease;
+      }
+      .message-body .slot.is-empty {
+        font-weight: 400;
+        color: #a3978b;
+      }
+      .message-body .slot.is-fresh {
+        background: #55463a;
+      }
+
+      /* PRODUTOS: título largo, tabela empurrada para a direita */
+      .shop-title {
+        text-indent: 3vw;
+        max-width: 18ch;
+      }
+      .shop {
+        margin-top: 96px;
+        align-items: end;
+      }
+      .shop-photo {
+        grid-column: 1 / 5;
+        position: relative;
+        aspect-ratio: 4 / 5;
+        overflow: hidden;
+        background: var(--surface);
+      }
+      .shop-photo img {
+        position: absolute;
+        inset: 0;
+        opacity: 0;
+        transform: scale(1.03);
+        transition:
+          opacity 0.6s ease,
+          transform 1.2s var(--ease-out);
+      }
+      .shop-photo img.is-on {
+        opacity: 1;
+        transform: none;
+      }
+      .shop-name {
+        grid-column: 7 / 8;
+        align-self: start;
+        font-size: var(--step-small);
+        color: var(--muted);
+        padding-top: 6px;
+      }
+      .shop-list {
+        grid-column: 8 / 13;
+        align-self: start;
+      }
+      .product {
+        display: grid;
+        grid-template-columns: 28% 1fr auto;
+        gap: 4px 16px;
+        align-items: baseline;
+        padding-block: 13px;
+      }
+      .product:nth-child(5) {
+        margin-top: 30px;
+      }
+      .product-kind {
+        font-size: var(--step-small);
+        color: var(--muted);
+      }
+      .product-name strong {
+        display: block;
+        font-weight: 600;
+      }
+      .product-name span {
+        display: block;
+        font-size: var(--step-small);
+        color: var(--muted);
+        margin-top: 2px;
+      }
+      .product-buy {
+        display: grid;
+        justify-items: end;
+        gap: 2px;
+      }
+      .add {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        min-height: 44px;
+        padding: 0 2px;
+        border: 0;
+        background: none;
+        font-size: var(--step-small);
+        font-weight: 600;
+        color: var(--accent);
+        transition: transform 0.2s var(--ease-out);
+      }
+      .add:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.3em;
+      }
+      .add:active {
+        transform: scale(0.94);
+      }
+      .shop-note {
+        grid-column: 8 / 13;
+        margin-top: 32px;
+        max-width: 52ch;
+      }
+
+      /* QUEM CUIDA: frase, foto pequena, dois links */
+      .about {
+        align-items: start;
+        padding-bottom: clamp(96px, 9vw, 140px);
+      }
+      .about-copy {
+        grid-column: 1 / 6;
+        display: grid;
+        gap: 28px;
+      }
+      .about-copy blockquote {
+        font-size: var(--step-statement);
+        line-height: 1.15;
+        letter-spacing: -0.01em;
+        max-width: 24ch;
+      }
+      .about-photo {
+        grid-column: 8 / 10;
+        aspect-ratio: 1;
+        max-width: 200px;
+        width: 100%;
+        overflow: hidden;
+        background: var(--surface);
+      }
+      .about-links {
+        grid-column: 10 / 13;
+        display: grid;
+        gap: 6px;
+        align-content: start;
+      }
+      .about-links h3 {
+        font-size: var(--step-body);
+        font-weight: 600;
+        letter-spacing: 0;
+      }
+      .about-links .small {
+        margin-bottom: 14px;
+      }
+      .about-links .link {
+        width: fit-content;
+      }
+
+      /* RODAPÉ: inverte o chão, o nome volta em largura total */
+      .site-footer {
+        position: sticky;
+        bottom: 0;
+        z-index: 0;
+        min-height: 100svh;
+        display: grid;
+        grid-template-rows: auto 1fr auto;
+        background: var(--field);
+        color: var(--field-ink);
+        padding: calc(var(--header-h) + 40px) var(--m) 24px;
+      }
+      .footer-cols {
+        row-gap: 32px;
+        font-size: var(--step-body);
+      }
+      .footer-cols > div {
+        grid-column: span 3;
+        display: grid;
+        gap: 4px;
+        align-content: start;
+        color: var(--field-muted);
+      }
+      .footer-cols > div > :first-child {
+        color: var(--field-ink);
+      }
+      .footer-cols a {
+        text-decoration: none;
+        width: fit-content;
+      }
+      .footer-cols a:hover {
+        text-decoration: underline;
+        text-underline-offset: 0.3em;
+      }
+      .wordmark {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        fill: currentColor;
+      }
+      .legal {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        flex-wrap: wrap;
+        font-size: var(--step-small);
+        color: var(--field-muted);
+      }
+
+      /* SACOLA */
+      dialog {
+        width: min(520px, calc(100% - 32px));
+        max-height: 86svh;
+        border: 0;
+        border-radius: 0;
+        padding: 28px;
+        background: var(--bg);
+        color: var(--ink);
+        box-shadow: 0 24px 64px rgba(28, 24, 20, 0.28); /* taste-skill-ignore: diálogo flutua */
+      }
+      dialog::backdrop {
+        background: rgba(28, 24, 20, 0.55);
+      }
+      dialog[open] {
+        animation: lift 0.4s var(--ease-out);
+      }
+      @keyframes lift {
+        from {
+          opacity: 0;
+          transform: translateY(16px);
+        }
+      }
+      .dialog-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 8px;
+      }
+      .dialog-top h2 {
+        font-size: var(--step-lead);
+      }
+      .icon-button {
+        display: inline-grid;
+        place-items: center;
+        width: 44px;
+        height: 44px;
+        border: 0;
+        background: none;
+        font-size: 22px;
+      }
+      .icon-button:hover {
+        background: var(--surface);
+      }
+      .cart-line {
+        display: grid;
+        grid-template-columns: 56px 1fr auto;
+        gap: 14px;
+        align-items: center;
+        padding-block: 14px;
+      }
+      .cart-line img {
+        width: 56px;
+        height: 56px;
+      }
+      .cart-line strong {
+        display: block;
+        font-weight: 600;
+        font-size: var(--step-small);
+      }
+      .qty {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+      .qty .icon-button {
+        width: 40px;
+        height: 40px;
+        background: var(--surface);
+        font-size: 16px;
+      }
+      .qty .icon-button:hover {
+        background: #c9c2b9;
+      }
+      .qty span {
+        min-width: 2ch;
+        text-align: center;
+      }
+      .cart-total {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 12px;
+        padding: 14px 16px;
+        background: var(--surface);
+      }
+      #checkout {
+        width: 100%;
+        margin-top: 16px;
+      }
+      .toast {
+        position: fixed;
+        left: 50%;
+        bottom: 24px;
+        z-index: 40;
+        transform: translate(-50%, 12px);
+        background: var(--ink);
+        color: var(--bg);
+        padding: 14px 20px;
+        font-size: var(--step-small);
+        opacity: 0;
+        pointer-events: none;
+        transition:
+          opacity 0.25s ease,
+          transform 0.35s var(--ease-out);
+      }
+      .toast.show {
+        opacity: 1;
+        transform: translate(-50%, 0);
+      }
+
+      /* ENTRADAS: cada parte da seção chega na ordem de leitura */
+      .js [data-rise] > * {
+        opacity: 0;
+        transform: translateY(24px);
+        transition:
+          opacity 0.8s ease,
+          transform 0.9s var(--ease-out);
+        transition-delay: calc(var(--i, 0) * 80ms);
+      }
+      .js [data-rise].is-in > * {
+        opacity: 1;
+        transform: none;
+      }
+      .js .band[data-rise] > * {
+        transform: translateY(40px);
+      }
+
+      /* TABLET E CELULAR */
+      @media (max-width: 1100px) {
+        .nav {
+          gap: 18px;
+        }
+        .service-notes li {
+          grid-column: span 6;
+        }
+        .home-photo {
+          grid-column: 1 / 13;
+        }
+        .home-side {
+          grid-column: 1 / 13;
+          grid-template-columns: 1fr 1fr;
+          align-items: start;
+        }
+        .plan-tile {
+          aspect-ratio: 4 / 3;
+        }
+      }
+      @media (max-width: 900px) {
+        :root {
+          --header-h: 64px;
+        }
+        .nav-links {
+          display: none;
+        }
+        .menu-toggle {
+          display: inline-block;
+        }
+        .nav-links.open {
+          display: grid;
+          position: fixed;
+          inset: var(--header-h) 0 auto;
+          background: var(--bg);
+          padding: 8px var(--m) 24px;
+          font-size: var(--step-lead);
+          box-shadow: 0 16px 32px rgba(28, 24, 20, 0.12); /* taste-skill-ignore: menu aberto flutua */
+        }
+        .nav-links.open li::after {
+          content: none !important;
+        }
+        .nav-links.open a {
+          display: block;
+          padding: 10px 0;
+        }
+        .site-header:has(.nav-links.open) {
+          background: var(--bg);
+        }
+        .hero-copy {
+          display: flex;
+          flex-direction: column;
+          align-items: stretch;
+          gap: 24px;
+        }
+        .hero h1 {
+          max-width: 18ch;
+        }
+        .hero-aside {
+          justify-self: start;
+          width: min(100%, 30rem);
+        }
+        .services-head {
+          grid-column: 1 / 13;
+          margin-bottom: 40px;
+        }
+        .band {
+          display: grid;
+          height: 84svh;
+          min-height: 520px;
+          max-height: 820px;
+          grid-template-columns: repeat(100, minmax(0, 1fr));
+          grid-template-rows: repeat(2, minmax(0, 1fr));
+        }
+        .band li:nth-child(1) {
+          grid-column: 1 / 65;
+        }
+        .band li:nth-child(2) {
+          grid-column: 65 / 101;
+        }
+        .band li:nth-child(3) {
+          grid-column: 1 / 37;
+        }
+        .band li:nth-child(4) {
+          grid-column: 37 / 101;
+        }
+        .band-label {
+          padding: 10px 20px 12px;
+        }
+        .band li:nth-child(3) .band-label {
+          padding-left: var(--m);
+        }
+        .home-top h2,
+        .home-lead {
+          grid-column: 1 / 13;
+        }
+        .home-top .button {
+          grid-column: 1 / 13;
+          grid-row: auto;
+          justify-self: start;
+          margin-top: 28px;
+        }
+        .home-tiles {
+          margin-top: 48px;
+        }
+        .steps {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+        }
+        .steps-intro {
+          order: -1;
+          gap: 0;
+        }
+        .steps-intro .step-text {
+          order: 2;
+          margin-top: 20px;
+        }
+        .steps-intro h2 {
+          margin-bottom: 36px;
+        }
+        .step-photo.one {
+          order: 0;
+          width: 100%;
+          aspect-ratio: 4 / 3;
+        }
+        .steps-intro {
+          display: contents;
+        }
+        .steps-intro h2 {
+          order: -1;
+        }
+        .steps-intro .step-text {
+          order: 1;
+        }
+        .step-photo.two {
+          order: 2;
+          width: 62%;
+          align-self: flex-end;
+          margin-top: 36px;
+        }
+        .step-text.two {
+          order: 3;
+          margin-top: 0;
+          align-self: flex-end;
+          width: 62%;
+        }
+        .step-photo.three {
+          order: 4;
+          width: 78%;
+          margin-top: 36px;
+        }
+        .step-text.three {
+          order: 5;
+          margin-top: 0;
+          width: 78%;
+        }
+        .booking-head h2,
+        .booking-head p {
+          grid-column: 1 / 13;
+        }
+        .booking-head p {
+          margin-top: 20px;
+        }
+        .booking-head {
+          margin-bottom: 44px;
+        }
+        .booking form,
+        .message {
+          grid-column: 1 / 13;
+        }
+        .message {
+          position: static;
+          order: -1;
+        }
+        .message-body {
+          min-height: 0;
+          padding: 20px 20px 24px;
+        }
+        .shop-title {
+          text-indent: 0;
+        }
+        .shop {
+          margin-top: 48px;
+          row-gap: 32px;
+        }
+        .shop-name {
+          display: none;
+        }
+        .shop-list,
+        .shop-note {
+          grid-column: 1 / 13;
+        }
+        .shop-photo {
+          grid-column: 6 / 13;
+          grid-row: 2;
+        }
+        .shop-note {
+          grid-row: 3;
+          margin-top: 0;
+        }
+        .about {
+          row-gap: 36px;
+        }
+        .about-copy {
+          grid-column: 1 / 7;
+        }
+        .about-photo {
+          grid-column: 7 / 9;
+          max-width: 140px;
+        }
+        .about-links {
+          grid-column: 9 / 13;
+        }
+        .footer-cols > div {
+          grid-column: span 6;
+        }
+      }
+      @media (max-width: 600px) {
+        .hero {
+          min-height: 640px;
+        }
+        .hero-photos img {
+          object-position: 62% 50%;
+        }
+        .hero-aside {
+          padding: 18px 18px 20px;
+        }
+        .letterhead span {
+          display: none;
+        }
+        .band-label strong {
+          font-size: var(--step-body);
+        }
+        .service-notes li {
+          grid-column: 1 / 13;
+        }
+        .services-head {
+          display: grid;
+          gap: 16px;
+        }
+        .about-copy {
+          grid-column: 1 / 13;
+        }
+        .about-photo {
+          grid-row: 2;
+        }
+        .about-links {
+          grid-row: 2;
+        }
+        .home-photo {
+          aspect-ratio: auto;
+          overflow: visible;
+          background: none;
+        }
+        .home-photo img {
+          aspect-ratio: 4 / 3;
+          height: auto;
+        }
+        .home-photo p {
+          position: static;
+          width: auto;
+          padding: 20px 0 0;
+          background: none;
+        }
+        .home-tiles {
+          row-gap: 40px;
+        }
+        .home-side {
+          grid-template-columns: 1fr;
+        }
+        .plan-tile {
+          aspect-ratio: 3 / 2.4;
+        }
+        .field-row {
+          grid-template-columns: 1fr;
+        }
+        .booking form .button {
+          width: 100%;
+        }
+        .product {
+          grid-template-columns: 1fr auto;
+          padding-block: 10px;
+        }
+        .product-kind {
+          grid-column: 1;
+          grid-row: 1;
+        }
+        .product-name {
+          grid-column: 1;
+          grid-row: 2;
+        }
+        .product-buy {
+          grid-column: 2;
+          grid-row: 1 / 3;
+          align-self: start;
+        }
+        .shop-photo {
+          grid-column: 5 / 13;
+        }
+        .about-photo {
+          grid-column: 1 / 5;
+          max-width: 96px;
+        }
+        .about-links {
+          grid-column: 5 / 13;
+        }
+        .site-footer {
+          padding-top: calc(var(--header-h) + 28px);
+        }
+        .legal {
+          flex-direction: column;
+          gap: 4px;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        *,
+        *::before,
+        *::after {
+          animation: none !important;
+          transition-duration: 0.01ms !important;
+          transition-delay: 0s !important;
+        }
+        .js [data-rise] > * {
+          opacity: 1;
+          transform: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#main">Pular para o conteúdo</a>
+
+    <header class="site-header" id="top-bar">
+      <a class="letterhead" href="#inicio" aria-label="Essenza, voltar ao início">
+        <strong>Essenza</strong>
+        <span>Massoterapia e bem-estar</span>
+      </a>
+      <nav class="nav" aria-label="Menu principal">
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#massagens">Massagens</a></li>
+          <li><a href="#domicilio">Em casa</a></li>
+          <li><a href="#como-funciona">Como funciona</a></li>
+          <li><a href="#produtos">Produtos</a></li>
+          <li><a href="#sobre">Quem cuida</a></li>
+        </ul>
+        <button class="bag-button" id="cart-open" aria-label="Abrir sacola">
+          <i class="ph ph-handbag" aria-hidden="true"></i>
+          <span id="cart-count">0</span>
+        </button>
+        <button class="menu-toggle" id="menu-toggle" aria-expanded="false" aria-controls="nav-links">Menu</button>
+        <a class="button header-book" href="#agendar">Agendar</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="hero" id="inicio" aria-labelledby="hero-title">
+        <div class="hero-photos" id="hero-photos">
+          <img
+            class="is-on"
+            src="https://images.unsplash.com/photo-1620733723572-11c53f73a416?auto=format&fit=crop&w=1600&q=80"
+            srcset="
+              https://images.unsplash.com/photo-1620733723572-11c53f73a416?auto=format&fit=crop&w=800&q=80   800w,
+              https://images.unsplash.com/photo-1620733723572-11c53f73a416?auto=format&fit=crop&w=1600&q=80 1600w,
+              https://images.unsplash.com/photo-1620733723572-11c53f73a416?auto=format&fit=crop&w=2400&q=80 2400w
+            "
+            sizes="100vw"
+            width="2400"
+            height="1600"
+            alt="Difusor de varetas, velas acesas e toalha branca enrolada sobre uma bancada clara"
+            fetchpriority="high"
+          />
+          <img
+            data-src="https://images.unsplash.com/photo-1765862835326-14b5070fdde9?auto=format&fit=crop&w=2400&q=80"
+            width="2400"
+            height="1600"
+            alt="Quarto em tons claros preparado para uma sessão, com luz suave entrando pela janela"
+          />
+          <img
+            data-src="https://images.unsplash.com/photo-1611255550543-b5ecb01dfddc?auto=format&fit=crop&w=2400&q=80"
+            width="2400"
+            height="1600"
+            alt="Ramos de eucalipto contra uma parede clara"
+          />
+        </div>
+        <div class="hero-copy">
+          <h1 id="hero-title">Massoterapia no espaço ou em casa</h1>
+          <div class="hero-aside">
+            <p>
+              Sessões de 30 a 90 minutos, com óleos essenciais e atenção ao que o seu corpo pede.
+              Você escolhe, e os detalhes a gente combina pelo WhatsApp.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#agendar">Agendar uma sessão <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+              <a class="link" href="#massagens">Ver massagens</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="massagens" aria-labelledby="massagens-title">
+        <div class="wrap grid">
+          <div class="services-head" data-rise>
+            <h2 id="massagens-title">Quatro formas de pausa</h2>
+            <p style="--i: 1">
+              Mais do que uma massagem: técnica, aroma e um ambiente preparado com cuidado, no ritmo
+              que você precisa hoje.
+            </p>
+          </div>
+        </div>
+        <ul class="band" id="band" data-rise></ul>
+        <div class="wrap">
+          <ul class="grid service-notes" id="service-notes" data-rise></ul>
+        </div>
+      </section>
+
+      <section class="section wrap" id="domicilio" aria-labelledby="domicilio-title">
+        <div class="grid home-top" data-rise>
+          <h2 id="domicilio-title">Sua casa vira o espaço</h2>
+          <p class="home-lead" style="--i: 1">
+            Não precisa sair de casa. Levamos a maca, as toalhas e os óleos, preparamos o ambiente e,
+            no fim, deixamos tudo como estava.
+          </p>
+          <a class="button" href="#agendar" id="home-book" style="--i: 2">
+            Quero receber em casa <i class="ph ph-arrow-up-right" aria-hidden="true"></i>
+          </a>
+        </div>
+        <div class="grid home-tiles" data-rise>
+          <figure class="home-photo">
+            <img
+              src="https://images.unsplash.com/photo-1635575066917-e788c2bd06b7?auto=format&fit=crop&w=1600&q=80"
+              width="1600"
+              height="1000"
+              alt="Pessoa relaxando em casa ao lado de um difusor de aromas e frascos de óleo essencial"
+              loading="lazy"
+            />
+            <p>
+              Atendimento personalizado, profissional preparado e todo o equipamento necessário. Você
+              só escolhe o cômodo, a música, se quiser, e o horário.
+            </p>
+          </figure>
+          <div class="home-side" style="--i: 1">
+            <div class="plan-tile">
+              <svg viewBox="0 0 240 180" role="img" aria-label="Planta de um apartamento com um ponto marcando o cômodo onde a sessão acontece">
+                <g fill="none" stroke="currentColor" stroke-width="6" stroke-linecap="square">
+                  <path d="M10 10h220v160H10z" />
+                  <path d="M120 10v62M120 104v66M10 96h70M150 96h80" />
+                  <path d="M176 96v28" />
+                </g>
+                <rect x="140" y="22" width="76" height="34" fill="currentColor" opacity="0.22" />
+                <circle class="plan-dot" cx="178" cy="39" r="9" fill="#e2e0dc" />
+              </svg>
+              <p>A sessão acontece no cômodo que você escolher.</p>
+            </div>
+            <dl class="facts">
+              <div>
+                <dt>Duração</dt>
+                <dd>30, 60 ou 90 min</dd>
+              </div>
+              <div>
+                <dt>Região</dt>
+                <dd>[Cidade e região de atendimento]</dd>
+              </div>
+              <div>
+                <dt>Levamos</dt>
+                <dd>Maca, toalhas e óleos</dd>
+              </div>
+              <div>
+                <dt>Combinamos</dt>
+                <dd>Tudo pelo WhatsApp</dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap" id="como-funciona" aria-labelledby="como-title">
+        <div class="grid steps" data-rise>
+          <figure class="step-photo one">
+            <img
+              src="https://images.unsplash.com/photo-1696841212541-449ca29397cc?auto=format&fit=crop&w=1000&q=80"
+              width="1000"
+              height="1333"
+              alt="Sala à meia-luz com pedras quentes alinhadas sobre as costas de uma pessoa deitada na maca"
+              loading="lazy"
+            />
+          </figure>
+          <div class="steps-intro" style="--i: 1">
+            <h2 id="como-title">Como marcar sua sessão</h2>
+            <p class="step-text">
+              <b>Primeiro, escolha a experiência.</b> Relaxante, terapêutica, com aromaterapia ou em
+              casa. Na dúvida, conte o que está sentindo e a gente ajuda a escolher.
+            </p>
+          </div>
+          <figure class="step-photo two" style="--i: 2">
+            <img
+              src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=900&q=80"
+              width="900"
+              height="900"
+              alt="Mãos posicionando pedras quentes nas costas, com flores brancas ao redor"
+              loading="lazy"
+            />
+          </figure>
+          <p class="step-text two" style="--i: 3">
+            <b>Depois, diga o melhor dia.</b> Data, horário e duração. O pedido chega como uma
+            mensagem, sem cadastro e sem senha.
+          </p>
+          <figure class="step-photo three" style="--i: 4">
+            <img
+              src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=1400&q=80"
+              width="1400"
+              height="875"
+              alt="Mãos pingando óleo essencial de um frasco âmbar na palma"
+              loading="lazy"
+            />
+          </figure>
+          <p class="step-text three" style="--i: 5">
+            <b>Por fim, confirme pelo WhatsApp.</b> Disponibilidade e valor são combinados na conversa,
+            direto com o profissional. Nada é cobrado pelo site.
+          </p>
+        </div>
+      </section>
+
+      <section class="section booking" id="agendar" aria-labelledby="agendar-title">
+        <div class="wrap">
+          <div class="grid booking-head" data-rise>
+            <h2 id="agendar-title">Monte seu pedido de horário</h2>
+            <p style="--i: 1">
+              Preencha os campos e veja a mensagem se escrever. Ela vai pronta para o WhatsApp, e você
+              ainda pode editar antes de enviar.
+            </p>
+          </div>
+          <div class="grid booking-body">
+            <form id="booking-form" novalidate>
+              <label class="field">
+                Tipo de massagem
+                <select id="service" required></select>
+              </label>
+              <div class="field-row">
+                <label class="field">
+                  Duração
+                  <select id="duration">
+                    <option>30 minutos</option>
+                    <option selected>60 minutos</option>
+                    <option>90 minutos</option>
+                  </select>
+                </label>
+                <label class="field">
+                  Local
+                  <select id="location">
+                    <option>No espaço do profissional</option>
+                    <option>A domicílio</option>
+                  </select>
+                </label>
+              </div>
+              <div class="field-row">
+                <label class="field">
+                  Data desejada
+                  <input id="date" type="date" required />
+                </label>
+                <label class="field">
+                  Horário desejado
+                  <input id="time" type="time" required />
+                </label>
+              </div>
+              <label class="field">
+                Seu nome
+                <input id="customer" placeholder="Como podemos chamar você?" maxlength="80" required autocomplete="given-name" />
+              </label>
+              <button class="button light" type="submit">
+                Enviar pelo WhatsApp <i class="ph ph-whatsapp-logo" aria-hidden="true"></i>
+              </button>
+              <p class="small">
+                A solicitação depende da confirmação de disponibilidade. O horário só fica reservado
+                depois da resposta do profissional.
+              </p>
+            </form>
+            <div class="message" aria-live="polite">
+              <p class="message-label"><i class="ph ph-chat-circle-text" aria-hidden="true"></i> Sua mensagem</p>
+              <p class="message-body" id="message">Olá! Gostaria de agendar uma sessão. Podemos confirmar a disponibilidade e o valor?</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section wrap" id="produtos" aria-labelledby="produtos-title">
+        <h2 class="shop-title" id="produtos-title" data-rise><span>Leve o ritual para casa</span></h2>
+        <div class="grid shop">
+          <figure class="shop-photo" id="shop-photo"></figure>
+          <p class="shop-name">Óleos e kits</p>
+          <ul class="shop-list" id="products" data-rise></ul>
+          <p class="small shop-note">
+            Imagens ilustrativas, catálogo e valores demonstrativos. Consulte disponibilidade,
+            composição e orientação de uso com o profissional.
+          </p>
+        </div>
+      </section>
+
+      <section class="section wrap grid about" id="sobre" aria-labelledby="sobre-title" data-rise>
+        <div class="about-copy">
+          <h2 id="sobre-title">Quem cuida de você</h2>
+          <blockquote>
+            Cada sessão começa ouvindo o que você sente e como prefere ser tocado.
+          </blockquote>
+        </div>
+        <figure class="about-photo" style="--i: 1">
+          <img
+            src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=500&h=500&q=80"
+            width="500"
+            height="500"
+            alt="Mãos do profissional durante uma massagem nas costas"
+            loading="lazy"
+          />
+        </figure>
+        <div class="about-links" style="--i: 2">
+          <h3>[Nome do profissional]</h3>
+          <p class="small">[Formação / especializações]</p>
+          <p>Prefere conversar antes?</p>
+          <a class="link" data-wa href="#">Chamar no WhatsApp <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          <a class="link" href="#" rel="noopener">Instagram [@perfil] <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          <p class="small">[Cidade e região de atendimento]</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer" id="contato">
+      <div class="grid footer-cols">
+        <div>
+          <p>Essenza</p>
+          <p>O essencial é cuidar de você.</p>
+        </div>
+        <div>
+          <p>Navegar</p>
+          <a href="#massagens">Massagens</a>
+          <a href="#domicilio">Em casa</a>
+          <a href="#agendar">Agendar</a>
+          <a href="#produtos">Produtos</a>
+        </div>
+        <div>
+          <p>Contato</p>
+          <a data-wa href="#">WhatsApp</a>
+          <span>Instagram [@perfil]</span>
+        </div>
+        <div>
+          <p>Atendimento</p>
+          <span>[Cidade e região]</span>
+          <span>No espaço ou a domicílio</span>
+        </div>
+      </div>
+      <div></div>
+      <div>
+        <svg class="wordmark" viewBox="0 0 1000 214" role="img" aria-label="Essenza">
+          <text x="0" y="200" font-family="Archivo, Helvetica, Arial, sans-serif" font-size="268" letter-spacing="-6" textLength="1000" lengthAdjust="spacing">Essenza</text>
+        </svg>
+        <div class="legal">
+          <span>© 2026 Essenza. Todos os direitos reservados.</span>
+          <span>Fotografias: Unsplash.</span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+    <dialog id="cart-dialog" aria-labelledby="cart-title">
+      <div class="dialog-top">
+        <h2 id="cart-title">Sua sacola</h2>
+        <button class="icon-button" data-close aria-label="Fechar sacola"><i class="ph ph-x" aria-hidden="true"></i></button>
+      </div>
+      <p class="small">Produtos e preços demonstrativos.</p>
+      <div id="cart-items"></div>
+      <div class="cart-total">
+        <span>Total dos produtos</span>
+        <strong id="cart-total"></strong>
+      </div>
+      <p class="small">Frete, entrega e disponibilidade combinados pelo WhatsApp.</p>
+      <button id="checkout" class="button">Pedir pelo WhatsApp <i class="ph ph-arrow-up-right" aria-hidden="true"></i></button>
+    </dialog>
+
+    <script>
+      'use strict';
+      /* CONFIGURAÇÃO: substitua o telefone fictício antes de divulgar o site. */
+      const WHATSAPP_NUMBER = '5511999999999';
+
+      /* CATÁLOGO DEMONSTRATIVO: valores em centavos evitam erros de arredondamento. */
+      const img = (id, w, h) =>
+        `https://images.unsplash.com/photo-${id}?auto=format&fit=crop&w=${w}${h ? `&h=${h}` : ''}&q=80`;
+      const SERVICES = [
+        {
+          name: 'Massagem Relaxante',
+          short: 'Relaxante',
+          description: 'Para aliviar o estresse, desacelerar e sair com o corpo mais leve.',
+          duration: '60 minutos',
+          image: '1741522509438-a120c0bb5e88',
+          alt: 'Mãos deslizando sobre as costas durante uma massagem relaxante',
+        },
+        {
+          name: 'Massagem Terapêutica',
+          short: 'Terapêutica',
+          description: 'Focada em regiões de tensão e desconforto muscular, respeitando seus limites.',
+          duration: '60 minutos',
+          image: '1519824145371-296894a0daa9',
+          alt: 'Profissional trabalhando a tensão dos ombros com as duas mãos',
+        },
+        {
+          name: 'Massagem com Aromaterapia',
+          short: 'Aromaterapia',
+          description: 'Massoterapia combinada a óleos essenciais escolhidos para o seu momento.',
+          duration: '90 minutos',
+          image: '1544161515-4ab6ce6db874',
+          alt: 'Óleo sendo despejado nas mãos antes de uma massagem com aromaterapia',
+        },
+        {
+          name: 'Atendimento a Domicílio',
+          short: 'Em casa',
+          description: 'Toda a sessão no ambiente escolhido por você, com o equipamento necessário.',
+          duration: '60 minutos',
+          image: '1611073615830-9f76902c10fe',
+          alt: 'Massagem nas mãos e braços sobre um tapete macio em casa',
+        },
+      ];
+      const PRODUCTS = [
+        { id: 'lavanda', full: 'Óleo essencial de Lavanda', kind: 'Óleo essencial', name: 'Lavanda', description: 'Um aroma floral para o seu ritual de pausa.', price: 4900, image: '1763839221812-b01e3ff8f2a9' },
+        { id: 'laranja', full: 'Óleo essencial de Laranja', kind: 'Óleo essencial', name: 'Laranja', description: 'Notas cítricas para perfumar seus momentos.', price: 3900, image: '1580052614034-c55d20bfee3b' },
+        { id: 'eucalipto', full: 'Óleo essencial de Eucalipto', kind: 'Óleo essencial', name: 'Eucalipto', description: 'Um aroma fresco de inspiração natural.', price: 4200, image: '1611255550543-b5ecb01dfddc' },
+        { id: 'blend', full: 'Blend Relax', kind: 'Blend', name: 'Blend Relax', description: 'Uma composição aromática para desacelerar.', price: 5900, image: '1608571423539-e951b9b3871e' },
+        { id: 'kit', full: 'Kit Aromaterapia', kind: 'Kit', name: 'Kit Aromaterapia', description: 'Uma seleção para começar seu autocuidado.', price: 12900, image: '1624454002302-36b824d7bd0a' },
+        { id: 'corporal', full: 'Óleo corporal para massagem', kind: 'Óleo corporal', name: 'Óleo para massagem', description: 'Suavidade para o seu ritual corporal.', price: 6900, image: '1722933375700-e297a7996265' },
+      ];
+
+      const $ = s => document.querySelector(s);
+      const money = v => (v / 100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+      const reduced = matchMedia('(prefers-reduced-motion: reduce)').matches;
+      const whatsappUrl = text => `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(text)}`;
+      const openWhatsapp = text => window.open(whatsappUrl(text), '_blank', 'noopener,noreferrer');
+
+      document.querySelectorAll('[data-wa]').forEach(a => {
+        a.href = whatsappUrl('Olá! Gostaria de saber mais sobre os serviços da Essenza.');
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+      });
+
+      let toastTimer;
+      function toast(text) {
+        const t = $('#toast');
+        t.textContent = text;
+        t.classList.add('show');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => t.classList.remove('show'), 2600);
+      }
+
+      /* Renderização usa só dados locais do catálogo; entradas do visitante usam textContent. */
+      $('#band').innerHTML = SERVICES.map(
+        (s, i) => `<li style="--i:${i}"><a href="#agendar" data-service="${i}">
+          <img src="${img(s.image, i === 0 ? 1200 : 800)}" width="800" height="1000" alt="${s.alt}" loading="lazy">
+          <span class="band-label"><strong>${s.short}</strong><span>${s.duration.replace('minutos', 'min')}</span></span>
+        </a></li>`,
+      ).join('');
+      $('#service-notes').innerHTML = SERVICES.map(
+        (s, i) => `<li style="--i:${i}">
+          <strong>${s.name}</strong>
+          <span>${s.description}</span>
+          <span class="small">${s.duration} · valor sob consulta</span>
+          <a class="link" href="#agendar" data-service="${i}">Agendar esta pausa <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+        </li>`,
+      ).join('');
+      SERVICES.forEach((s, i) => $('#service').add(new Option(s.name, i)));
+
+      /* PRODUTOS: a foto ao lado acompanha a linha em foco */
+      $('#shop-photo').innerHTML = PRODUCTS.map(
+        (p, i) => `<img src="${img(p.image, 900, 1125)}" width="900" height="1125" alt="Fotografia ilustrativa: ${p.full}" loading="lazy" class="${i === 3 ? 'is-on' : ''}" data-photo="${p.id}">`,
+      ).join('');
+      $('#products').innerHTML = PRODUCTS.map(
+        (p, i) => `<li class="product" data-product="${p.id}" style="--i:${i}">
+          <span class="product-kind">${p.kind}</span>
+          <span class="product-name"><strong>${p.name}</strong><span>${p.description}</span></span>
+          <span class="product-buy"><span>${money(p.price)}</span>
+            <button class="add" data-add="${p.id}" aria-label="Adicionar ${p.name} à sacola">Adicionar <i class="ph ph-plus" aria-hidden="true"></i></button>
+          </span>
+        </li>`,
+      ).join('');
+      function showProduct(id) {
+        document.querySelectorAll('[data-photo]').forEach(el => el.classList.toggle('is-on', el.dataset.photo === id));
+      }
+      document.querySelectorAll('[data-product]').forEach(row => {
+        row.addEventListener('pointerenter', () => showProduct(row.dataset.product));
+        row.addEventListener('focusin', () => showProduct(row.dataset.product));
+      });
+
+      /* SACOLA */
+      function readStorage(key, fallback) {
+        try {
+          return JSON.parse(localStorage.getItem(key)) ?? fallback;
+        } catch {
+          return fallback;
+        }
+      }
+      const saved = readStorage('essenza-cart', {});
+      const cart = {};
+      PRODUCTS.forEach(p => {
+        const q = Number(saved?.[p.id]);
+        if (Number.isInteger(q) && q > 0) cart[p.id] = Math.min(q, 99);
+      });
+      function renderCart() {
+        const selected = PRODUCTS.filter(p => cart[p.id]);
+        const count = Object.values(cart).reduce((a, b) => a + b, 0);
+        $('#cart-count').textContent = count;
+        $('#cart-open').setAttribute('aria-label', `Abrir sacola, ${count} ${count === 1 ? 'item' : 'itens'}`);
+        $('#cart-items').innerHTML = selected.length
+          ? selected
+              .map(
+                p => `<div class="cart-line">
+                  <img src="${img(p.image, 120, 120)}" alt="" width="56" height="56">
+                  <div><strong>${p.full}</strong><span class="small">${money(p.price)} cada</span></div>
+                  <div class="qty">
+                    <button class="icon-button" data-qty="${p.id}" data-change="-1" aria-label="Diminuir quantidade de ${p.name}"><i class="ph ph-minus" aria-hidden="true"></i></button>
+                    <span>${cart[p.id]}</span>
+                    <button class="icon-button" data-qty="${p.id}" data-change="1" aria-label="Aumentar quantidade de ${p.name}"><i class="ph ph-plus" aria-hidden="true"></i></button>
+                  </div>
+                </div>`,
+              )
+              .join('')
+          : '<p style="padding-block:20px">Sua sacola está vazia. Escolha um óleo ou kit para levar o ritual para casa.</p>';
+        $('#cart-total').textContent = money(selected.reduce((t, p) => t + p.price * cart[p.id], 0));
+        $('#checkout').disabled = !selected.length;
+        try {
+          localStorage.setItem('essenza-cart', JSON.stringify(cart));
+        } catch {
+          /* A sacola funciona também com armazenamento bloqueado. */
+        }
+      }
+      $('#cart-open').addEventListener('click', () => $('#cart-dialog').showModal());
+      document.querySelectorAll('[data-close]').forEach(b => b.addEventListener('click', () => b.closest('dialog').close()));
+      $('#cart-dialog').addEventListener('click', e => {
+        if (e.target === e.currentTarget) e.currentTarget.close();
+      });
+      $('#checkout').addEventListener('click', () => {
+        const selected = PRODUCTS.filter(p => cart[p.id]);
+        if (!selected.length) return;
+        const total = selected.reduce((t, p) => t + p.price * cart[p.id], 0);
+        openWhatsapp(
+          'Olá! Gostaria de pedir estes produtos da Essenza:\n\n' +
+            selected.map(p => `${cart[p.id]} × ${p.full} — ${money(p.price * cart[p.id])}`).join('\n') +
+            `\n\nTotal dos produtos: ${money(total)}.\nPodemos confirmar disponibilidade, entrega e pagamento?`,
+        );
+      });
+
+      document.addEventListener('click', e => {
+        const add = e.target.closest('[data-add]');
+        if (add) {
+          cart[add.dataset.add] = Math.min(99, (cart[add.dataset.add] || 0) + 1);
+          renderCart();
+          toast('Adicionado à sua sacola.');
+        }
+        const qty = e.target.closest('[data-qty]');
+        if (qty) {
+          const id = qty.dataset.qty;
+          cart[id] = Math.min(99, Math.max(0, (cart[id] || 0) + Number(qty.dataset.change)));
+          if (!cart[id]) delete cart[id];
+          renderCart();
+        }
+        const service = e.target.closest('[data-service]');
+        if (service) {
+          $('#service').value = service.dataset.service;
+          applyService();
+        }
+      });
+
+      /* AGENDAR: a mensagem se escreve enquanto o visitante escolhe */
+      function today() {
+        const d = new Date();
+        return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      }
+      $('#date').min = today();
+      const formatDate = v => v.split('-').reverse().join('/');
+      let lastValues = {};
+      function slot(value, empty, key) {
+        const span = document.createElement('span');
+        span.className = 'slot';
+        span.textContent = value || empty;
+        if (!value) span.classList.add('is-empty');
+        if (value && lastValues[key] !== undefined && lastValues[key] !== value) span.classList.add('is-fresh');
+        lastValues[key] = value;
+        return span;
+      }
+      function values() {
+        return {
+          name: $('#customer').value.trim(),
+          service: SERVICES[Number($('#service').value)].name,
+          duration: $('#duration').value,
+          date: $('#date').value ? formatDate($('#date').value) : '',
+          time: $('#time').value,
+          location: $('#location').value,
+        };
+      }
+      function composeText(v) {
+        return `Olá! Sou ${v.name}. Gostaria de agendar uma sessão de ${v.service}, com duração de ${v.duration}, para ${v.date} às ${v.time}.\nLocal: ${v.location}.\nPodemos confirmar a disponibilidade e o valor?`;
+      }
+      function renderMessage() {
+        const v = values();
+        const box = $('#message');
+        box.replaceChildren(
+          'Olá! Sou ',
+          slot(v.name, 'seu nome', 'name'),
+          '. Gostaria de agendar uma sessão de ',
+          slot(v.service, '', 'service'),
+          ', com duração de ',
+          slot(v.duration, '', 'duration'),
+          ', para ',
+          slot(v.date, 'data', 'date'),
+          ' às ',
+          slot(v.time, 'horário', 'time'),
+          '.\nLocal: ',
+          slot(v.location, '', 'location'),
+          '.\nPodemos confirmar a disponibilidade e o valor?',
+        );
+        clearTimeout(renderMessage.timer);
+        renderMessage.timer = setTimeout(
+          () => box.querySelectorAll('.is-fresh').forEach(s => s.classList.remove('is-fresh')),
+          700,
+        );
+      }
+      function applyService() {
+        const i = Number($('#service').value);
+        $('#duration').value = SERVICES[i].duration;
+        if (i === 3) $('#location').value = 'A domicílio';
+        renderMessage();
+      }
+      $('#service').addEventListener('change', applyService);
+      ['#duration', '#location', '#date', '#time', '#customer'].forEach(id => {
+        $(id).addEventListener('input', renderMessage);
+        $(id).addEventListener('change', renderMessage);
+      });
+      $('#home-book').addEventListener('click', () => {
+        $('#service').value = '3';
+        applyService();
+      });
+      $('#booking-form').addEventListener('submit', e => {
+        e.preventDefault();
+        $('#date').min = today();
+        if (!e.target.reportValidity()) return;
+        const scheduled = new Date(`${$('#date').value}T${$('#time').value}`);
+        if (scheduled <= new Date()) {
+          toast('Escolha uma data e um horário futuros.');
+          return;
+        }
+        openWhatsapp(composeText(values()));
+      });
+
+      /* CABEÇALHO E MENU */
+      const header = $('#top-bar');
+      new IntersectionObserver(([entry]) => header.classList.toggle('is-solid', !entry.isIntersecting), {
+        rootMargin: `-${parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-h')) || 76}px 0px 0px 0px`,
+        threshold: 0.12,
+      }).observe($('.hero-copy'));
+      const menu = $('#nav-links');
+      function setMenu(open) {
+        menu.classList.toggle('open', open);
+        $('#menu-toggle').setAttribute('aria-expanded', String(open));
+        $('#menu-toggle').textContent = open ? 'Fechar' : 'Menu';
+      }
+      $('#menu-toggle').addEventListener('click', () => setMenu(!menu.classList.contains('open')));
+      menu.addEventListener('click', e => e.target.closest('a') && setMenu(false));
+      document.addEventListener('keydown', e => e.key === 'Escape' && setMenu(false));
+
+      /* HERO: a luz muda devagar entre três fotos; pausa com a aba oculta */
+      (() => {
+        const photos = [...document.querySelectorAll('#hero-photos img')];
+        if (reduced || photos.length < 2) return;
+        let index = 0;
+        let timer;
+        const load = el => el.dataset.src && ((el.src = el.dataset.src), delete el.dataset.src);
+        photos.slice(1).forEach(el => setTimeout(() => load(el), 1200));
+        function next() {
+          photos[index].classList.remove('is-on');
+          index = (index + 1) % photos.length;
+          load(photos[index]);
+          photos[index].classList.add('is-on');
+        }
+        const start = () => (timer = setInterval(next, 6200));
+        start();
+        document.addEventListener('visibilitychange', () => {
+          clearInterval(timer);
+          if (!document.hidden) start();
+        });
+      })();
+
+      /* ENTRADAS: uma vez, na ordem de leitura; nada fica escondido se o observador falhar */
+      (() => {
+        const groups = document.querySelectorAll('[data-rise]');
+        groups.forEach(g => [...g.children].forEach((c, i) => c.style.getPropertyValue('--i') || c.style.setProperty('--i', i)));
+        if (!('IntersectionObserver' in window) || reduced) {
+          groups.forEach(g => g.classList.add('is-in'));
+          return;
+        }
+        const io = new IntersectionObserver(
+          entries =>
+            entries.forEach(entry => {
+              if (!entry.isIntersecting) return;
+              entry.target.classList.add('is-in');
+              io.unobserve(entry.target);
+            }),
+          { rootMargin: '0px 0px -10% 0px', threshold: 0.08 },
+        );
+        groups.forEach(g => io.observe(g));
+        addEventListener('load', () =>
+          setTimeout(() => {
+            groups.forEach(g => {
+              const r = g.getBoundingClientRect();
+              if (r.top < innerHeight && r.bottom > 0) g.classList.add('is-in');
+            });
+          }, 2500),
+        );
+      })();
+
+      renderCart();
+      renderMessage();
+    </script>
+  </body>
+</html>

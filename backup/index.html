@@ -1,0 +1,2080 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/regular/style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/fill/style.css" />
+    <title>ESSENZA | Massoterapia & Bem-Estar</title>
+    <meta
+      name="description"
+      content="Uma pausa feita para você. Conheça as massagens, experiências com aromaterapia e atendimento a domicílio da Essenza."
+    />
+    <meta property="og:title" content="ESSENZA — Um momento para você" />
+    <meta
+      property="og:description"
+      content="Massoterapia personalizada, aromaterapia e cuidado no conforto da sua casa."
+    />
+    <meta
+      property="og:image"
+      content="https://essenza-bem-estar.rafaellaramiro-patro.chatgpt.site/assets/hero.webp"
+    />
+    <meta property="og:url" content="https://essenza-bem-estar.rafaellaramiro-patro.chatgpt.site" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="pt_BR" />
+    <link rel="icon" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA2NCA2NCI+PHJlY3Qgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0IiByeD0iMTQiIGZpbGw9IiNmNWYxZWEiLz48dGV4dCB4PSIzMiIgeT0iNDciIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZvbnQtc2l6ZT0iNDgiIGZpbGw9IiM0YTM4MmQiPuKcszwvdGV4dD48L3N2Zz4K" />
+    <style>
+      /* DESIGN: paleta, tipografia e dimensões principais */
+      :root {
+        --cream: #f5f1ea;
+        --paper: #fcfaf6;
+        --sand: #e8ded0;
+        --caramel: #995f34;
+        --brown: #4a382d;
+        --ink: #24221f;
+        --muted: #746b62;
+        --line: #ddd4c8;
+        --radius: 20px;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html {
+        scroll-behavior: smooth;
+        scroll-padding-top: 105px;
+      }
+      body {
+        margin: 0;
+        background: var(--cream);
+        color: var(--ink);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+        line-height: 1.6;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      button,
+      input,
+      select {
+        font: inherit;
+      }
+      button,
+      a,
+      input,
+      select {
+        -webkit-tap-highlight-color: transparent;
+      }
+      button {
+        cursor: pointer;
+      }
+      button:disabled {
+        cursor: not-allowed;
+        opacity: 0.5;
+      }
+      :focus-visible {
+        outline: 3px solid var(--caramel);
+        outline-offset: 4px;
+      }
+      img {
+        width: 100%;
+        display: block;
+        object-fit: cover;
+      }
+      h1,
+      h2,
+      h3,
+      p {
+        margin-top: 0;
+      }
+      h2 {
+        font-size: clamp(30px, 3.3vw, 46px);
+        line-height: 1.12;
+        font-weight: 500;
+        letter-spacing: -1.6px;
+      }
+      h2 em {
+        font-family: Georgia, serif;
+        font-weight: 400;
+      }
+      h3 {
+        font-weight: 500;
+        font-size: 19px;
+        line-height: 1.25;
+      }
+      .announcement {
+        text-align: center;
+        background: var(--brown);
+        color: var(--cream);
+        padding: 9px;
+        font-size: 11px;
+        letter-spacing: 0.5px;
+      }
+      .announcement a {
+        margin-left: 12px;
+        border-bottom: 1px solid #b6a190;
+      }
+      header {
+        max-width: 1440px;
+        margin: auto;
+        padding: 23px 4.3%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 25px;
+      }
+      .brand {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        font-size: 24px;
+        letter-spacing: 2px;
+        line-height: 1.1;
+        font-weight: 600;
+      }
+      .brand small {
+        display: block;
+        letter-spacing: 0.4px;
+        font-size: 9px;
+        margin-top: 7px;
+        font-weight: 400;
+      }
+      .ph,
+      .ph-fill {
+        vertical-align: -0.125em;
+      }
+      .mark {
+        font-size: 42px;
+        color: var(--brown);
+        line-height: 1;
+      }
+      nav {
+        display: flex;
+        gap: 27px;
+        font-size: 12px;
+      }
+      nav a:hover {
+        color: var(--caramel);
+      }
+      .header-actions {
+        display: flex;
+        gap: 13px;
+        align-items: center;
+      }
+      .header-actions button {
+        background: none;
+        border: 0;
+        position: relative;
+        padding: 4px;
+        width: 28px;
+        height: 30px;
+      }
+      svg {
+        width: 21px;
+        height: 21px;
+        fill: none;
+        stroke: currentColor;
+        stroke-width: 1.5;
+      }
+      #cart-count {
+        position: absolute;
+        top: -3px;
+        right: -4px;
+        background: var(--caramel);
+        color: white;
+        font-size: 9px;
+        border-radius: 50%;
+        width: 15px;
+        height: 15px;
+      }
+      .mobile-wa,
+      #menu-toggle {
+        display: none;
+      }
+      main {
+        max-width: 1440px;
+        margin: auto;
+        padding: 0 3.4%;
+      }
+      .hero {
+        position: relative;
+        min-height: 620px;
+        border-radius: 24px;
+        overflow: hidden;
+        background: var(--sand);
+      }
+      .hero-photo {
+        position: absolute;
+        inset: 0;
+        background: url('https://images.unsplash.com/photo-1620733723572-11c53f73a416?auto=format&fit=crop&w=1800&q=80') center/cover;
+      }
+      .hero-photo:after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background: linear-gradient(
+          90deg,
+          #f5f1eaf2 0%,
+          #f5f1eae6 26%,
+          #f5f1ea80 43%,
+          transparent 64%
+        );
+      }
+      .hero-copy {
+        position: relative;
+        padding: 75px 4.4%;
+        width: 55%;
+        z-index: 1;
+      }
+      .eyebrow {
+        font-size: 10px;
+        letter-spacing: 2px;
+        font-weight: 600;
+        color: var(--caramel);
+        margin-bottom: 23px;
+      }
+      h1 {
+        font-size: clamp(42px, 4.8vw, 69px);
+        line-height: 0.99;
+        letter-spacing: -3px;
+        margin-bottom: 24px;
+        font-weight: 700;
+      }
+      .intro {
+        max-width: 340px;
+        font-size: 14px;
+        color: #5a5149;
+        line-height: 1.7;
+      }
+      .actions {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-top: 28px;
+      }
+      .button {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+        background: var(--caramel);
+        border: 1px solid var(--caramel);
+        border-radius: 50px;
+        color: white;
+        padding: 14px 23px;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.3px;
+        min-height: 46px;
+        transition:
+          transform 0.2s,
+          background 0.2s;
+      }
+      .button:hover {
+        background: var(--brown);
+        transform: translateY(-2px);
+      }
+      .button.outline {
+        color: var(--brown);
+        background: transparent;
+        border-color: #b4a99b;
+      }
+      .button.outline:hover {
+        background: var(--sand);
+      }
+      .button.light {
+        background: var(--paper);
+        border-color: var(--paper);
+        color: var(--brown);
+      }
+      .trust {
+        display: flex;
+        gap: 20px;
+        font-size: 10px;
+        margin-top: 32px;
+        color: var(--brown);
+      }
+      .float-card {
+        position: absolute;
+        display: flex;
+        gap: 15px;
+        align-items: center;
+        background: #fcfaf6ed;
+        backdrop-filter: blur(10px);
+        padding: 20px;
+        border-radius: 16px;
+        box-shadow: 0 10px 35px #35241910;
+        z-index: 2;
+      }
+      .float-card.top {
+        right: 3.5%;
+        top: 12%;
+        width: 198px;
+      }
+      .float-card.bottom {
+        right: 4%;
+        bottom: 11%;
+        width: 237px;
+      }
+      .float-icon {
+        font-size: 30px;
+        color: var(--caramel);
+      }
+      .float-card small {
+        font-size: 8px;
+        letter-spacing: 1px;
+        color: var(--muted);
+      }
+      .float-card strong {
+        display: block;
+        font-weight: 500;
+        font-size: 15px;
+        margin-top: 5px;
+      }
+      .float-card p {
+        font-size: 10px;
+        margin: 5px 0 0;
+        color: var(--muted);
+      }
+      .hero-caption {
+        position: absolute;
+        bottom: 23px;
+        right: 27%;
+        font-family: Georgia, serif;
+        font-style: italic;
+        font-size: 14px;
+        color: var(--brown);
+      }
+      .categories {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 16px;
+        padding: 22px 0 32px;
+      }
+      .categories a {
+        border-radius: 16px;
+        overflow: hidden;
+        background: var(--paper);
+        transition: transform 0.2s;
+      }
+      .categories a:hover {
+        transform: translateY(-4px);
+      }
+      .categories img {
+        height: 140px;
+      }
+      .categories span {
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 19px;
+        font-size: 12px;
+      }
+      .categories b {
+        border-radius: 50%;
+        background: var(--cream);
+        width: 26px;
+        height: 26px;
+        display: grid;
+        place-items: center;
+        font-weight: 400;
+      }
+      .experience {
+        min-height: 395px;
+        background:
+          linear-gradient(90deg, #231a12e8, #231a1260 63%, #231a1210),
+          url('https://images.unsplash.com/photo-1696841212541-449ca29397cc?auto=format&fit=crop&w=1800&q=80') center 56% / cover;
+        border-radius: 23px;
+        padding: 55px 5%;
+        color: white;
+        position: relative;
+      }
+      .experience-copy {
+        max-width: 510px;
+      }
+      .experience .eyebrow {
+        color: #e5c2a4;
+      }
+      .experience h2 {
+        font-size: 41px;
+      }
+      .experience p:not(.eyebrow) {
+        font-size: 13px;
+        max-width: 360px;
+        color: #e8dfd5;
+      }
+      .image-tag {
+        position: absolute;
+        bottom: 30px;
+        right: 35px;
+        font-size: 9px;
+        letter-spacing: 2px;
+      }
+      .section {
+        padding: 78px 1.2%;
+      }
+      .section-heading {
+        display: flex;
+        align-items: end;
+        justify-content: space-between;
+        gap: 30px;
+        margin-bottom: 30px;
+      }
+      .section-heading h2 {
+        margin-bottom: 0;
+      }
+      .section-heading > p {
+        color: var(--muted);
+        font-size: 12px;
+        margin-bottom: 4px;
+      }
+      .services-grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+      }
+      .service-card img {
+        height: 210px;
+        border-radius: 16px;
+        margin-bottom: 20px;
+      }
+      .service-card p {
+        color: var(--muted);
+        font-size: 12px;
+        min-height: 58px;
+      }
+      .service-meta {
+        border-top: 1px solid var(--line);
+        padding: 14px 0;
+        display: flex;
+        justify-content: space-between;
+        font-size: 11px;
+        color: var(--brown);
+      }
+      .service-card .text-link {
+        display: block;
+      }
+      .text-link {
+        border-bottom: 1px solid var(--brown);
+        width: fit-content;
+        padding-bottom: 5px;
+        font-size: 12px;
+      }
+      .home-section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        background: var(--sand);
+        border-radius: 24px;
+        overflow: hidden;
+      }
+      .home-image {
+        position: relative;
+        min-height: 490px;
+      }
+      .home-image img {
+        height: 100%;
+        position: absolute;
+      }
+      .floating-label {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+        background: var(--paper);
+        padding: 13px 20px;
+        border-radius: 50px;
+        font-size: 11px;
+      }
+      .home-copy {
+        padding: 60px 12%;
+      }
+      .home-copy > p:not(.eyebrow) {
+        font-size: 13px;
+        color: var(--muted);
+      }
+      .checks {
+        list-style: none;
+        padding: 0;
+        font-size: 12px;
+        line-height: 2.3;
+        margin: 23px 0;
+      }
+      .checks li:before {
+        content: '\e182';
+        font-family: 'Phosphor';
+        margin-right: 13px;
+        color: var(--caramel);
+      }
+      .region {
+        display: block;
+        font-size: 10px;
+        margin-top: 18px;
+        color: var(--muted);
+      }
+      .filters {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin: 25px 0;
+      }
+      .filters button {
+        background: transparent;
+        border: 1px solid var(--line);
+        border-radius: 40px;
+        padding: 9px 17px;
+        font-size: 11px;
+        color: var(--brown);
+      }
+      .filters button.active {
+        background: var(--brown);
+        color: white;
+        border-color: var(--brown);
+      }
+      .products-grid {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 30px 22px;
+      }
+      .product-image {
+        position: relative;
+        background: var(--sand);
+        border-radius: 17px;
+        overflow: hidden;
+        margin-bottom: 16px;
+      }
+      .product-image img {
+        height: 235px;
+        transition: transform 0.6s;
+      }
+      .product-card:hover img {
+        transform: scale(1.04);
+      }
+      .favorite {
+        position: absolute;
+        top: 13px;
+        right: 13px;
+        border: 0;
+        background: var(--paper);
+        border-radius: 50%;
+        width: 34px;
+        height: 34px;
+        font-size: 19px;
+        color: var(--brown);
+      }
+      .favorite.selected {
+        color: var(--caramel);
+      }
+      .product-card p {
+        font-size: 12px;
+        color: var(--muted);
+        margin-bottom: 14px;
+      }
+      .product-bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+      }
+      .price {
+        font-size: 15px;
+      }
+      .product-bottom button {
+        background: none;
+        border: 1px solid var(--line);
+        border-radius: 30px;
+        padding: 10px 14px;
+        font-size: 10px;
+      }
+      .product-bottom button:hover {
+        background: var(--brown);
+        color: white;
+      }
+      .note {
+        font-size: 11px;
+        color: var(--muted);
+        line-height: 1.8;
+      }
+      .section > .note {
+        margin-top: 24px;
+      }
+      .booking {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10%;
+        background: #e9e2d8;
+        border-radius: 24px;
+        padding: 65px 6%;
+      }
+      .booking > div > p:not(.eyebrow) {
+        color: var(--muted);
+        font-size: 13px;
+        max-width: 340px;
+      }
+      .booking-detail {
+        padding: 17px 0;
+        border-bottom: 1px solid #cec2b3;
+        font-family: Georgia, serif;
+        color: var(--caramel);
+        font-size: 19px;
+      }
+      .booking-detail span {
+        font-family: Arial, sans-serif;
+        margin-left: 20px;
+        font-size: 12px;
+        color: var(--brown);
+      }
+      form {
+        background: var(--paper);
+        border-radius: 20px;
+        padding: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+      }
+      label {
+        font-size: 11px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+      }
+      input,
+      select {
+        width: 100%;
+        border: 1px solid var(--line);
+        background: transparent;
+        padding: 12px;
+        border-radius: 8px;
+        font-size: 12px;
+        color: var(--ink);
+        min-width: 0;
+      }
+      .form-row {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 14px;
+      }
+      form small {
+        color: var(--muted);
+        font-size: 10px;
+        line-height: 1.7;
+      }
+      .about {
+        display: grid;
+        grid-template-columns: 0.85fr 1fr;
+        gap: 12%;
+        padding: 85px 6%;
+        align-items: center;
+      }
+      .portrait-placeholder {
+        height: 390px;
+        background: var(--sand);
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: var(--brown);
+      }
+      .portrait-placeholder > span {
+        font-size: 100px;
+        opacity: 0.35;
+      }
+      .portrait-placeholder p {
+        font-size: 11px;
+        letter-spacing: 2px;
+        margin-top: 20px;
+      }
+      .portrait-placeholder small {
+        font-size: 10px;
+      }
+      .professional {
+        font-size: 17px;
+        margin-top: 27px;
+      }
+      .about p:not(.eyebrow):not(.professional) {
+        color: var(--muted);
+        font-size: 13px;
+      }
+      .testimonials {
+        text-align: center;
+        padding-top: 20px;
+      }
+      .quotes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+        text-align: left;
+        margin-top: 32px;
+      }
+      figure {
+        margin: 0;
+        padding: 30px;
+        background: var(--paper);
+        border-radius: 17px;
+      }
+      figure > span {
+        font-family: Georgia, serif;
+        font-size: 50px;
+        line-height: 1;
+        color: var(--caramel);
+      }
+      blockquote {
+        margin: 0;
+        font-family: Georgia, serif;
+        font-size: 20px;
+        line-height: 1.4;
+        min-height: 100px;
+      }
+      figcaption {
+        font-size: 10px;
+        color: var(--muted);
+        margin-top: 25px;
+      }
+      .final-cta {
+        text-align: center;
+        padding: 65px 20px 85px;
+        background: radial-gradient(ellipse, #e6dac9, transparent 65%);
+      }
+      .final-cta h2 {
+        font-size: 60px;
+      }
+      .final-cta .actions {
+        justify-content: center;
+      }
+      .final-cta p:not(.eyebrow) {
+        color: var(--muted);
+      }
+      footer {
+        max-width: 1440px;
+        margin: auto;
+        padding: 45px 5%;
+        border-top: 1px solid var(--line);
+      }
+      .footer-top {
+        display: grid;
+        grid-template-columns: 1.4fr 1fr 1fr 1.2fr;
+        gap: 30px;
+      }
+      .footer-top > p {
+        font-family: Georgia, serif;
+        font-style: italic;
+        font-size: 17px;
+        color: var(--muted);
+      }
+      .footer-top > div {
+        display: flex;
+        flex-direction: column;
+        gap: 9px;
+        font-size: 11px;
+        color: var(--muted);
+      }
+      .footer-bottom {
+        display: flex;
+        justify-content: space-between;
+        border-top: 1px solid var(--line);
+        padding-top: 25px;
+        margin-top: 40px;
+        font-size: 10px;
+        color: var(--muted);
+      }
+      .whatsapp-float {
+        position: fixed;
+        bottom: 22px;
+        right: 24px;
+        background: var(--brown);
+        color: white;
+        border-radius: 50px;
+        padding: 14px 19px;
+        z-index: 5;
+        font-size: 18px;
+        box-shadow: 0 5px 20px #35241930;
+      }
+      .whatsapp-float span {
+        font-size: 11px;
+        margin-left: 9px;
+      }
+      .skip {
+        position: fixed;
+        top: -100px;
+        z-index: 30;
+        background: white;
+        padding: 15px;
+      }
+      .skip:focus {
+        top: 0;
+      }
+      dialog {
+        border: 0;
+        border-radius: 23px;
+        padding: 28px;
+        color: var(--ink);
+        background: var(--paper);
+        width: 480px;
+        max-width: calc(100% - 24px);
+        max-height: 85vh;
+      }
+      dialog::backdrop {
+        background: #24221f70;
+        backdrop-filter: blur(4px);
+      }
+      .dialog-top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 15px;
+        margin-bottom: 20px;
+      }
+      .dialog-top h2 {
+        font-size: 27px;
+        margin: 0;
+      }
+      .dialog-top button {
+        background: transparent;
+        border: 0;
+        font-size: 26px;
+        padding: 6px;
+      }
+      .cart-line {
+        display: grid;
+        grid-template-columns: 55px 1fr auto;
+        gap: 12px;
+        align-items: center;
+        padding: 15px 0;
+        border-bottom: 1px solid var(--line);
+      }
+      .cart-line img {
+        height: 55px;
+        border-radius: 8px;
+      }
+      .cart-line strong {
+        font-size: 12px;
+      }
+      .cart-line small {
+        display: block;
+        font-size: 11px;
+      }
+      .qty {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+      }
+      .qty button {
+        border: 1px solid var(--line);
+        background: none;
+        width: 28px;
+        height: 28px;
+        border-radius: 50%;
+      }
+      .cart-total {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 25px;
+      }
+      #checkout {
+        width: 100%;
+        margin-top: 15px;
+      }
+      #toast {
+        position: fixed;
+        bottom: 85px;
+        right: 24px;
+        background: var(--paper);
+        box-shadow: 0 4px 22px #0002;
+        border-radius: 12px;
+        padding: 13px 20px;
+        z-index: 20;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity 0.2s;
+        font-size: 12px;
+      }
+      #toast.show {
+        opacity: 1;
+      }
+      .search-result {
+        display: block;
+        width: 100%;
+        text-align: left;
+        background: none;
+        border: 0;
+        border-bottom: 1px solid var(--line);
+        padding: 16px 0;
+        color: var(--brown);
+      }
+      .reveal {
+        opacity: 1;
+      }
+      body.enhanced .reveal {
+        opacity: 0;
+        transform: translateY(16px);
+        transition:
+          opacity 0.65s,
+          transform 0.65s;
+      }
+      body.enhanced .reveal.visible {
+        opacity: 1;
+        transform: none;
+      }
+      /* RESPONSIVIDADE: navegação, grids e formulários */
+      @media (min-width: 1440px) {
+        .hero-copy {
+          padding-top: 90px;
+        }
+        .hero {
+          min-height: 680px;
+        }
+      }
+      @media (max-width: 1050px) {
+        nav {
+          gap: 15px;
+        }
+        .brand {
+          font-size: 20px;
+        }
+        .hero-copy {
+          width: 65%;
+        }
+        .hero h1 {
+          font-size: 53px;
+        }
+        .float-card.top {
+          top: 8%;
+          width: 175px;
+        }
+        .hero-caption {
+          display: none;
+        }
+        .services-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 30px;
+        }
+        .service-card p {
+          min-height: 0;
+        }
+        .booking {
+          gap: 5%;
+          padding: 45px 4%;
+        }
+        .home-copy {
+          padding: 40px 9%;
+        }
+        .footer-top {
+          grid-template-columns: 1fr 1fr;
+        }
+      }
+      @media (max-width: 760px) {
+        .announcement {
+          font-size: 9px;
+        }
+        .announcement a {
+          display: none;
+        }
+        header {
+          padding: 17px 5%;
+          position: relative;
+          flex-wrap: wrap;
+        }
+        .brand {
+          font-size: 20px;
+        }
+        .mark {
+          font-size: 33px;
+        }
+        .header-actions {
+          gap: 9px;
+        }
+        #search-open,
+        #favorites-open {
+          display: none;
+        }
+        #menu-toggle {
+          display: block;
+          font-size: 22px;
+        }
+        .mobile-wa {
+          display: block;
+          font-size: 10px;
+        }
+        .brand small {
+          font-size: 8px;
+        }
+        nav {
+          display: none;
+          order: 3;
+          width: 100%;
+          padding: 16px 0;
+          grid-template-columns: 1fr 1fr;
+          gap: 16px;
+        }
+        nav.open {
+          display: grid;
+        }
+        main {
+          padding: 0 4%;
+        }
+        .hero {
+          min-height: 790px;
+        }
+        .hero-photo {
+          inset: 350px 0 0;
+          background-position: 65% center;
+        }
+        .hero-photo:after {
+          background: linear-gradient(180deg, var(--cream), transparent 35%);
+        }
+        .hero-copy {
+          width: 100%;
+          padding: 35px 7% 0;
+          background: var(--cream);
+        }
+        h1,
+        .hero h1 {
+          font-size: 47px;
+          letter-spacing: -2px;
+        }
+        .hero .eyebrow {
+          margin-bottom: 20px;
+        }
+        .intro {
+          font-size: 12px;
+          max-width: 340px;
+        }
+        .hero .actions {
+          margin-top: 20px;
+          gap: 8px;
+        }
+        .button {
+          font-size: 10px;
+          padding: 12px 17px;
+          gap: 9px;
+        }
+        .trust {
+          margin-top: 19px;
+          font-size: 9px;
+          gap: 15px;
+        }
+        .float-card.top {
+          top: auto;
+          bottom: 260px;
+          right: 15px;
+          width: 154px;
+          padding: 12px;
+        }
+        .float-card.bottom {
+          bottom: 25px;
+          right: 16px;
+          width: 215px;
+          padding: 15px;
+        }
+        .float-icon {
+          font-size: 25px;
+        }
+        .float-card strong {
+          font-size: 13px;
+        }
+        .float-card p {
+          font-size: 9px;
+        }
+        .categories {
+          gap: 10px;
+          grid-template-columns: repeat(2, 1fr);
+          padding: 16px 0 25px;
+        }
+        .categories img {
+          height: 110px;
+        }
+        .categories span {
+          font-size: 11px;
+          padding: 12px;
+        }
+        .experience {
+          min-height: 360px;
+          padding: 35px 7%;
+          background-position: 70%;
+        }
+        .experience h2 {
+          font-size: 31px;
+        }
+        .experience-copy {
+          max-width: 300px;
+        }
+        .image-tag {
+          font-size: 8px;
+          right: 22px;
+          bottom: 20px;
+        }
+        .section {
+          padding: 48px 1%;
+        }
+        .section-heading {
+          display: block;
+        }
+        .section-heading > p {
+          margin-top: 20px;
+        }
+        .section-heading .eyebrow {
+          margin-bottom: 15px;
+        }
+        h2 {
+          font-size: 32px;
+          letter-spacing: -1px;
+        }
+        .services-grid {
+          gap: 25px 14px;
+        }
+        .service-card img {
+          height: 155px;
+          margin-bottom: 14px;
+        }
+        .service-card h3 {
+          font-size: 16px;
+        }
+        .service-card p {
+          font-size: 11px;
+        }
+        .service-meta {
+          font-size: 10px;
+          gap: 5px;
+        }
+        .home-section {
+          grid-template-columns: 1fr;
+        }
+        .home-image {
+          min-height: 270px;
+        }
+        .home-copy {
+          padding: 35px 8%;
+        }
+        .products-grid {
+          grid-template-columns: repeat(2, 1fr);
+          gap: 25px 14px;
+        }
+        .product-image img {
+          height: 165px;
+        }
+        .product-card h3 {
+          font-size: 16px;
+        }
+        .product-card p {
+          font-size: 11px;
+          min-height: 36px;
+        }
+        .product-bottom {
+          align-items: start;
+          flex-direction: column;
+          gap: 8px;
+        }
+        .product-bottom button {
+          width: 100%;
+          padding: 10px 4px;
+          font-size: 10px;
+        }
+        .filters {
+          gap: 7px;
+        }
+        .filters button {
+          font-size: 10px;
+          padding: 8px 12px;
+        }
+        .booking {
+          grid-template-columns: 1fr;
+          padding: 35px 7%;
+          gap: 28px;
+        }
+        form {
+          padding: 20px;
+        }
+        .form-row {
+          gap: 10px;
+        }
+        .about {
+          grid-template-columns: 1fr;
+          padding: 48px 5%;
+          gap: 28px;
+        }
+        .portrait-placeholder {
+          height: 250px;
+        }
+        .quotes {
+          grid-template-columns: 1fr;
+        }
+        .quotes figure {
+          padding: 25px;
+        }
+        blockquote {
+          min-height: 0;
+          font-size: 19px;
+        }
+        .final-cta {
+          padding: 40px 0 55px;
+        }
+        .final-cta h2 {
+          font-size: 43px;
+        }
+        .footer-top {
+          grid-template-columns: 1fr 1fr;
+          gap: 25px;
+        }
+        .footer-top > p {
+          font-size: 14px;
+        }
+        .footer-bottom {
+          flex-direction: column;
+          gap: 8px;
+          padding-bottom: 45px;
+        }
+        .whatsapp-float {
+          right: 15px;
+          bottom: 15px;
+          padding: 12px 16px;
+        }
+        .whatsapp-float span {
+          display: none;
+        }
+        .cart-line {
+          grid-template-columns: 45px 1fr auto;
+          gap: 9px;
+        }
+        .qty {
+          gap: 5px;
+        }
+        .qty button {
+          width: 26px;
+          height: 28px;
+        }
+      }
+      @media (prefers-reduced-motion: reduce) {
+        html {
+          scroll-behavior: auto;
+        }
+        *,
+        body.enhanced .reveal {
+          transition: none !important;
+          transform: none !important;
+        }
+        .reveal {
+          opacity: 1 !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <a class="skip" href="#main">Pular para o conteúdo</a>
+    <div class="announcement">
+      Cuidado que chega até você.
+      <a href="#agendamento">Conheça o atendimento a domicílio <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+    </div>
+    <header>
+      <a class="brand" href="#inicio" aria-label="Essenza início">
+        <span class="mark"><i class="ph ph-asterisk" aria-hidden="true"></i></span>
+        <span>
+          ESSENZA
+          <small>Massoterapia & Bem-Estar</small>
+        </span>
+      </a>
+      <nav id="nav" aria-label="Menu principal">
+        <a href="#inicio">Início</a>
+        <a href="#massagens">Massagens</a>
+        <a href="#experiencias">Experiências</a>
+        <a href="#produtos">Produtos</a>
+        <a href="#sobre">Sobre</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <div class="header-actions">
+        <button id="search-open" aria-label="Pesquisar serviços e produtos">
+          <svg viewBox="0 0 24 24">
+            <circle cx="10" cy="10" r="6.5" />
+            <path d="m15 15 5 5" />
+          </svg>
+        </button>
+        <button id="favorites-open" aria-label="Mostrar produtos favoritos">
+          <svg viewBox="0 0 24 24">
+            <path d="M12 20S3 14 3 8a5 5 0 0 1 9-3 5 5 0 0 1 9 3c0 6-9 12-9 12Z" />
+          </svg>
+        </button>
+        <button id="cart-open" aria-label="Abrir carrinho">
+          <svg viewBox="0 0 24 24"><path d="M5 7h14l2 14H3L5 7Z M8 7V5a4 4 0 0 1 8 0v2" /></svg>
+          <span id="cart-count">0</span>
+        </button>
+        <a class="mobile-wa" data-wa href="#">WhatsApp <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+        <button id="menu-toggle" aria-expanded="false" aria-controls="nav" aria-label="Abrir menu">
+          <i class="ph ph-list" aria-hidden="true"></i>
+        </button>
+      </div>
+    </header>
+    <main id="main">
+      <section id="inicio" class="hero">
+        <div
+          class="hero-photo"
+          role="img"
+          aria-label="Toalhas de linho, óleos âmbar e pedras em um ambiente acolhedor de massoterapia"
+        ></div>
+        <div class="hero-copy">
+          <p class="eyebrow">— UM MOMENTO PARA VOCÊ</p>
+          <h1>
+            RELAXE.
+            <br />
+            RESPIRE.
+            <br />
+            CUIDE DE VOCÊ.
+          </h1>
+          <p class="intro">
+            Massoterapia personalizada para aliviar tensões, desacelerar a rotina e transformar uma
+            pausa em bem-estar.
+          </p>
+          <div class="actions">
+            <a class="button" href="#agendamento">
+              Agendar massagem
+              <span><i class="ph ph-arrow-up-right" aria-hidden="true"></i></span>
+            </a>
+            <a class="button outline" href="#experiencias">Conhecer experiências</a>
+          </div>
+          <div class="trust">
+            <span><i class="ph ph-hand-heart" aria-hidden="true"></i> Cuidado personalizado</span>
+            <span><i class="ph ph-house" aria-hidden="true"></i> Em domicílio</span>
+          </div>
+        </div>
+        <div class="float-card top">
+          <span class="float-icon"><i class="ph ph-house" aria-hidden="true"></i></span>
+          <div>
+            <small>ATENDIMENTO</small>
+            <strong>Na sua casa.</strong>
+            <p>Conforto em cada detalhe.</p>
+          </div>
+        </div>
+        <div class="float-card bottom">
+          <span class="float-icon"><i class="ph ph-asterisk" aria-hidden="true"></i></span>
+          <div>
+            <small>EXPERIÊNCIA ESSENZA</small>
+            <strong>Feita para você.</strong>
+            <p>Cuidado, presença e bem-estar.</p>
+          </div>
+        </div>
+        <span class="hero-caption">O essencial é se sentir bem.</span>
+      </section>
+      <section class="categories" aria-label="Explore a Essenza">
+        <a href="#massagens">
+          <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1?auto=format&fit=crop&w=700&q=80" alt="Mãos realizando uma massagem" loading="lazy" />
+          <span>
+            Massagens
+            <b><i class="ph ph-arrow-up-right" aria-hidden="true"></i></b>
+          </span>
+        </a>
+        <a href="#produtos">
+          <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?auto=format&fit=crop&w=700&q=80" alt="Frascos âmbar de aromaterapia" loading="lazy" />
+          <span>
+            Aromaterapia
+            <b><i class="ph ph-arrow-up-right" aria-hidden="true"></i></b>
+          </span>
+        </a>
+        <a href="#experiencias">
+          <img src="https://images.unsplash.com/photo-1600334129128-685c5582fd35?auto=format&fit=crop&w=700&q=80" alt="Toalhas e pedras para relaxamento" loading="lazy" />
+          <span>
+            Relaxamento
+            <b><i class="ph ph-arrow-up-right" aria-hidden="true"></i></b>
+          </span>
+        </a>
+        <a href="#domicilio">
+          <img src="https://images.unsplash.com/photo-1765862835326-14b5070fdde9?auto=format&fit=crop&w=700&q=80" alt="Ambiente preparado para receber uma sessão" loading="lazy" />
+          <span>
+            Em domicílio
+            <b><i class="ph ph-arrow-up-right" aria-hidden="true"></i></b>
+          </span>
+        </a>
+      </section>
+      <section id="experiencias" class="experience reveal">
+        <div class="experience-copy">
+          <p class="eyebrow">EXPERIÊNCIA ESSENZA</p>
+          <h2>
+            Mais do que uma massagem.
+            <br />
+            <em>Um momento para desacelerar.</em>
+          </h2>
+          <p>
+            Técnicas de massoterapia, aromas e um ambiente preparado com cuidado. Uma pausa que
+            respeita o seu ritmo.
+          </p>
+          <a class="button light" href="#agendamento" data-service="2">Conhecer experiências <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+        <div class="image-tag">TOQUE · AROMA · PRESENÇA</div>
+      </section>
+      <section id="massagens" class="section reveal">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">CUIDADO EM CADA TOQUE</p>
+            <h2>
+              Encontre o momento
+              <br />
+              <em>certo para você.</em>
+            </h2>
+          </div>
+          <p>
+            Escolha como você quer desacelerar.
+            <br />
+            O cuidado começa na escuta.
+          </p>
+        </div>
+        <div id="services" class="services-grid"></div>
+      </section>
+      <section id="domicilio" class="home-section reveal">
+        <div class="home-image">
+          <img
+            src="https://images.unsplash.com/photo-1635575066917-e788c2bd06b7?auto=format&fit=crop&w=1200&q=80"
+            alt="Ambiente residencial em tons naturais com maca e acessórios de massagem"
+            loading="lazy"
+          />
+          <span class="floating-label"><i class="ph ph-house" aria-hidden="true"></i> Seu espaço. Sua pausa.</span>
+        </div>
+        <div class="home-copy">
+          <p class="eyebrow">O CONFORTO DE ESTAR EM CASA</p>
+          <h2>
+            Seu bem-estar,
+            <br />
+            <em>onde você estiver.</em>
+          </h2>
+          <p>
+            Não precisa sair de casa. Preparamos tudo para levar uma experiência de massoterapia até
+            você, com conforto, cuidado e praticidade.
+          </p>
+          <ul class="checks">
+            <li>Atendimento personalizado</li>
+            <li>Profissional preparado</li>
+            <li>Equipamentos necessários</li>
+            <li>Uma experiência no conforto da sua casa</li>
+          </ul>
+          <a class="button" href="#agendamento" id="home-book">Quero agendar <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          <small class="region">Região: [Cidade e região de atendimento]</small>
+        </div>
+      </section>
+      <section id="produtos" class="section reveal">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">PEQUENOS RITUAIS, TODOS OS DIAS</p>
+            <h2>
+              Leve o bem-estar
+              <br />
+              <em>para casa.</em>
+            </h2>
+          </div>
+          <p>
+            Uma seleção para o seu autocuidado.
+            <br />
+            <small>Catálogo e valores demonstrativos.</small>
+          </p>
+        </div>
+        <div class="filters">
+          <button class="active" data-filter="all">Todos os produtos</button>
+          <button data-filter="oil">Óleos essenciais</button>
+          <button data-filter="kit">Kits & cuidados</button>
+          <button id="favorites-filter"><i class="ph ph-heart" aria-hidden="true"></i> Meus favoritos</button>
+        </div>
+        <div id="products" class="products-grid"></div>
+        <p class="note">
+          Imagens ilustrativas. Consulte disponibilidade, composição e orientação de uso com o
+          profissional.
+        </p>
+      </section>
+      <section id="agendamento" class="booking reveal">
+        <div>
+          <p class="eyebrow">UMA PAUSA NA SUA AGENDA</p>
+          <h2>
+            Seu momento
+            <br />
+            <em>começa aqui.</em>
+          </h2>
+          <p>
+            Conte como você gostaria de receber seu cuidado. Envie sua solicitação e combine os
+            detalhes diretamente com o profissional.
+          </p>
+          <div class="booking-detail">
+            01
+            <span>Escolha sua experiência</span>
+          </div>
+          <div class="booking-detail">
+            02
+            <span>Conte o melhor dia para você</span>
+          </div>
+          <div class="booking-detail">
+            03
+            <span>Combine os detalhes pelo WhatsApp</span>
+          </div>
+        </div>
+        <form id="booking-form">
+          <label>
+            Tipo de massagem
+            <select id="service" required></select>
+          </label>
+          <div class="form-row">
+            <label>
+              Duração
+              <select id="duration">
+                <option>60 minutos</option>
+                <option>90 minutos</option>
+                <option>30 minutos</option>
+              </select>
+            </label>
+            <label>
+              Local
+              <select id="location">
+                <option>No espaço do profissional</option>
+                <option>A domicílio</option>
+              </select>
+            </label>
+          </div>
+          <div class="form-row">
+            <label>
+              Data desejada
+              <input id="date" type="date" required />
+            </label>
+            <label>
+              Horário desejado
+              <input id="time" type="time" required />
+            </label>
+          </div>
+          <label>
+            Seu nome
+            <input
+              id="customer"
+              placeholder="Como podemos chamar você?"
+              maxlength="80"
+              required
+              autocomplete="given-name"
+            />
+          </label>
+          <button class="button" type="submit">Agendar pelo WhatsApp <i class="ph ph-arrow-up-right" aria-hidden="true"></i></button>
+          <small>
+            Solicitação sujeita à confirmação de disponibilidade. O agendamento não é confirmado
+            automaticamente.
+          </small>
+        </form>
+      </section>
+      <section id="sobre" class="about reveal">
+        <div class="portrait-placeholder">
+          <span><i class="ph ph-asterisk" aria-hidden="true"></i></span>
+          <p>
+            ESPAÇO PARA A FOTO
+            <br />
+            DO PROFISSIONAL
+          </p>
+          <small>Substitua por uma fotografia real.</small>
+        </div>
+        <div>
+          <p class="eyebrow">POR TRÁS DA EXPERIÊNCIA</p>
+          <h2>
+            Cuidado de verdade.
+            <br />
+            <em>De pessoa para pessoa.</em>
+          </h2>
+          <p class="professional">[Nome do profissional]</p>
+          <p>
+            A ESSENZA nasce da proposta de criar espaço para a pausa, com escuta, atenção e cuidado
+            personalizado. Cada sessão considera suas preferências e os detalhes que ajudam você a
+            se sentir confortável.
+          </p>
+          <p class="note">
+            [Formação / especializações]
+            <br />
+            [Cidade e região de atendimento]
+          </p>
+          <a class="text-link" data-wa href="#">Vamos conversar <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+        </div>
+      </section>
+      <section class="testimonials section reveal">
+        <p class="eyebrow">EXPERIÊNCIAS QUE FICAM</p>
+        <h2>
+          Um toque de cuidado.
+          <br />
+          <em>Uma sensação de leveza.</em>
+        </h2>
+        <p class="note">
+          Depoimentos fictícios para demonstrar o layout. Substitua por relatos autorizados de
+          clientes.
+        </p>
+        <div class="quotes">
+          <figure>
+            <span>“</span>
+            <blockquote>Uma experiência incrível. Saí muito mais leve.</blockquote>
+            <figcaption>Cliente demonstrativo 01</figcaption>
+          </figure>
+          <figure>
+            <span>“</span>
+            <blockquote>Atendimento impecável e muito cuidadoso.</blockquote>
+            <figcaption>Cliente demonstrativo 02</figcaption>
+          </figure>
+          <figure>
+            <span>“</span>
+            <blockquote>Foi ótimo poder receber a massagem no conforto da minha casa.</blockquote>
+            <figcaption>Cliente demonstrativo 03</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="final-cta reveal">
+        <p class="eyebrow">PERMITA-SE DESACELERAR</p>
+        <h2>
+          Seu corpo
+          <br />
+          <em>pede uma pausa.</em>
+        </h2>
+        <p>Reserve um momento para você.</p>
+        <div class="actions">
+          <a class="button" href="#agendamento">Agendar minha massagem <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          <a class="button outline" data-wa href="#">Falar no WhatsApp</a>
+        </div>
+      </section>
+    </main>
+    <footer id="contato">
+      <div class="footer-top">
+        <a class="brand" href="#inicio">
+          <span class="mark"><i class="ph ph-asterisk" aria-hidden="true"></i></span>
+          <span>
+            ESSENZA
+            <small>Massoterapia & Bem-Estar</small>
+          </span>
+        </a>
+        <p>O essencial é cuidar de você.</p>
+        <div>
+          <a href="#massagens">Massagens</a>
+          <a href="#experiencias">Experiências</a>
+          <a href="#produtos">Produtos</a>
+          <a href="#sobre">Sobre</a>
+        </div>
+        <div>
+          <a data-wa href="#">WhatsApp <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          <span>Instagram: [@perfil]</span>
+          <span>[Cidade e região]</span>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2026 Essenza. Todos os direitos reservados.</span>
+        <span>Uma pausa feita para você.</span>
+      </div>
+    </footer>
+    <a class="whatsapp-float" data-wa href="#" aria-label="Falar no WhatsApp">
+      <i class="ph ph-whatsapp-logo" aria-hidden="true"></i>
+      <span>Vamos conversar?</span>
+    </a>
+    <div id="toast" role="status" aria-live="polite"></div>
+    <dialog id="cart-dialog" aria-labelledby="cart-title">
+      <div class="dialog-top">
+        <h2 id="cart-title">Sua seleção</h2>
+        <button data-close aria-label="Fechar carrinho">×</button>
+      </div>
+      <p class="note">Produtos e preços demonstrativos.</p>
+      <div id="cart-items"></div>
+      <div class="cart-total">
+        <span>Total dos produtos</span>
+        <strong id="cart-total"></strong>
+      </div>
+      <p class="note">Frete, entrega e disponibilidade combinados pelo WhatsApp.</p>
+      <button id="checkout" class="button">Solicitar pedido pelo WhatsApp <i class="ph ph-arrow-up-right" aria-hidden="true"></i></button>
+    </dialog>
+    <dialog id="search-dialog" aria-labelledby="search-title">
+      <div class="dialog-top">
+        <h2 id="search-title">Encontre seu cuidado</h2>
+        <button data-close aria-label="Fechar pesquisa">×</button>
+      </div>
+      <label>
+        Pesquisar
+        <input id="search-input" type="search" placeholder="Massagem, lavanda, kit…" />
+      </label>
+      <div id="search-results"></div>
+    </dialog>
+    <script>
+      'use strict';
+      /* CONFIGURAÇÃO: substitua o telefone fictício antes de divulgar o site. */
+      const WHATSAPP_NUMBER = '5511999999999';
+      const COMPANY = {
+        name: 'ESSENZA',
+        professional: '[Nome do profissional]',
+        region: '[Cidade e região de atendimento]',
+      };
+      /* CATÁLOGO DEMONSTRATIVO: edite nomes, preços, duração e caminhos de imagens. Valores em centavos evitam erros de arredondamento. */
+      const IMAGES = {
+        relax: 'https://images.unsplash.com/photo-1741522509438-a120c0bb5e88?auto=format&fit=crop&w=700&q=80',
+        therapy: 'https://images.unsplash.com/photo-1519824145371-296894a0daa9?auto=format&fit=crop&w=700&q=80',
+        aroma: 'https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&w=700&q=80',
+        home: 'https://images.unsplash.com/photo-1611073615830-9f76902c10fe?auto=format&fit=crop&w=700&q=80',
+      };
+      const SERVICES = [
+        {
+          name: 'Massagem Relaxante',
+          description:
+            'Para aliviar o estresse, desacelerar e proporcionar uma sensação de bem-estar.',
+          duration: '60 minutos',
+          image: 'relax',
+        },
+        {
+          name: 'Massagem Terapêutica',
+          description:
+            'Focada em regiões de tensão e desconforto muscular, respeitando suas necessidades.',
+          duration: '60 minutos',
+          image: 'therapy',
+        },
+        {
+          name: 'Massagem com Aromaterapia',
+          description: 'Uma experiência sensorial combinando massoterapia e óleos essenciais.',
+          duration: '90 minutos',
+          image: 'aroma',
+        },
+        {
+          name: 'Atendimento a Domicílio',
+          description: 'Todo o conforto de receber sua sessão no ambiente escolhido por você.',
+          duration: '60 minutos',
+          image: 'home',
+        },
+      ];
+      const PRODUCTS = [
+        {
+          id: 'lavanda',
+          name: 'Óleo essencial de Lavanda',
+          description: 'Um aroma floral para o seu ritual de pausa.',
+          price: 4900,
+          type: 'oil',
+          image: 'https://images.unsplash.com/photo-1763839221812-b01e3ff8f2a9?auto=format&fit=crop&w=600&q=80',
+        },
+        {
+          id: 'laranja',
+          name: 'Óleo essencial de Laranja',
+          description: 'Notas cítricas para perfumar seus momentos.',
+          price: 3900,
+          type: 'oil',
+          image: 'https://images.unsplash.com/photo-1580052614034-c55d20bfee3b?auto=format&fit=crop&w=600&q=80',
+        },
+        {
+          id: 'eucalipto',
+          name: 'Óleo essencial de Eucalipto',
+          description: 'Um aroma fresco de inspiração natural.',
+          price: 4200,
+          type: 'oil',
+          image: 'https://images.unsplash.com/photo-1611255550543-b5ecb01dfddc?auto=format&fit=crop&w=600&q=80',
+        },
+        {
+          id: 'blend',
+          name: 'Blend Relax',
+          description: 'Uma composição aromática para desacelerar.',
+          price: 5900,
+          type: 'oil',
+          image: 'https://images.unsplash.com/photo-1608571423539-e951b9b3871e?auto=format&fit=crop&w=600&q=80',
+        },
+        {
+          id: 'kit',
+          name: 'Kit Aromaterapia',
+          description: 'Uma seleção para começar seu autocuidado.',
+          price: 12900,
+          type: 'kit',
+          image: 'https://images.unsplash.com/photo-1624454002302-36b824d7bd0a?auto=format&fit=crop&w=600&q=80',
+        },
+        {
+          id: 'corporal',
+          name: 'Óleo corporal para massagem',
+          description: 'Cuidado e suavidade para o seu ritual corporal.',
+          price: 6900,
+          type: 'kit',
+          image: 'https://images.unsplash.com/photo-1722933375700-e297a7996265?auto=format&fit=crop&w=600&q=80',
+        },
+      ];
+      const $ = selector => document.querySelector(selector);
+      const money = value =>
+        (value / 100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL' });
+      function readStorage(key, fallback) {
+        try {
+          return JSON.parse(localStorage.getItem(key)) ?? fallback;
+        } catch {
+          return fallback;
+        }
+      }
+      const savedCart = readStorage('essenza-cart', {});
+      let cart = {};
+      PRODUCTS.forEach(p => {
+        const q = Number(savedCart?.[p.id]);
+        if (Number.isInteger(q) && q > 0) cart[p.id] = Math.min(q, 99);
+      });
+      let favorites = new Set(
+        (Array.isArray(readStorage('essenza-favorites', []))
+          ? readStorage('essenza-favorites', [])
+          : []
+        ).filter(id => PRODUCTS.some(p => p.id === id)),
+      );
+      let filter = 'all';
+      let toastTimer;
+      function persist() {
+        try {
+          localStorage.setItem('essenza-cart', JSON.stringify(cart));
+          localStorage.setItem('essenza-favorites', JSON.stringify([...favorites]));
+        } catch {
+          /* Carrinho funciona também com armazenamento bloqueado. */
+        }
+      }
+      function whatsappUrl(message) {
+        return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+      }
+      function whatsapp(message) {
+        window.open(whatsappUrl(message), '_blank', 'noopener,noreferrer');
+      }
+      document.querySelectorAll('[data-wa]').forEach(a => {
+        a.href = whatsappUrl('Olá! Gostaria de saber mais sobre os serviços da ESSENZA.');
+        a.target = '_blank';
+        a.rel = 'noopener noreferrer';
+      });
+      function toast(message) {
+        $('#toast').textContent = message;
+        $('#toast').classList.add('show');
+        clearTimeout(toastTimer);
+        toastTimer = setTimeout(() => $('#toast').classList.remove('show'), 2600);
+      }
+      /* Renderização recebe somente dados locais do catálogo; entradas do visitante usam textContent / URL encoding. */
+      $('#services').innerHTML = SERVICES.map(
+        (s, i) =>
+          `<article class="service-card">
+            <img src="${IMAGES[s.image]}" alt="${s.name}: experiência de cuidado em tons naturais" loading="lazy">
+            <h3>${s.name}</h3>
+            <p>${s.description}</p>
+            <div class="service-meta"><span><i class="ph ph-clock" aria-hidden="true"></i> ${s.duration}</span><span>Consultar valor</span></div>
+            <a class="text-link" data-service="${i}" href="#agendamento">Agendar esta pausa <i class="ph ph-arrow-up-right" aria-hidden="true"></i></a>
+          </article>`,
+      ).join('');
+      SERVICES.forEach((s, i) => {
+        const option = document.createElement('option');
+        option.value = i;
+        option.textContent = s.name;
+        $('#service').append(option);
+      });
+      function renderProducts() {
+        const list = PRODUCTS.filter(
+          p =>
+            filter === 'all' || (filter === 'favorites' ? favorites.has(p.id) : p.type === filter),
+        );
+        $('#products').innerHTML = list.length
+          ? list
+              .map(
+                p =>
+                  `<article class="product-card">
+                    <div class="product-image">
+                      <img src="${p.image}" alt="Fotografia ilustrativa: ${p.name}" loading="lazy">
+                      <button class="favorite ${favorites.has(p.id) ? 'selected' : ''}" data-fav="${p.id}" aria-label="Favoritar ${p.name}" aria-pressed="${favorites.has(p.id)}">${favorites.has(p.id) ? '<i class="ph-fill ph-heart" aria-hidden="true"></i>' : '<i class="ph ph-heart" aria-hidden="true"></i>'}</button>
+                    </div>
+                    <h3>${p.name}</h3>
+                    <p>${p.description}</p>
+                    <div class="product-bottom">
+                      <span class="price">${money(p.price)}</span>
+                      <button data-add="${p.id}">Adicionar ao carrinho +</button>
+                    </div>
+                  </article>`,
+              )
+              .join('')
+          : '<p class="note">Nenhum favorito ainda. Toque no coração de um produto para salvar sua seleção.</p>';
+        document
+          .querySelectorAll('[data-filter]')
+          .forEach(b => b.classList.toggle('active', b.dataset.filter === filter));
+        $('#favorites-filter').classList.toggle('active', filter === 'favorites');
+      }
+      function renderCart() {
+        const selected = PRODUCTS.filter(p => cart[p.id]);
+        $('#cart-count').textContent = Object.values(cart).reduce((a, b) => a + b, 0);
+        $('#cart-items').innerHTML = selected.length
+          ? selected
+              .map(
+                p =>
+                  `<div class="cart-line">
+                    <img src="${p.image}" alt="${p.name}">
+                    <div>
+                      <strong>${p.name}</strong>
+                      <small>${money(p.price)} por unidade</small>
+                    </div>
+                    <div class="qty">
+                      <button data-qty="${p.id}" data-change="-1" aria-label="Diminuir quantidade de ${p.name}"><i class="ph ph-minus" aria-hidden="true"></i></button>
+                      <span>${cart[p.id]}</span>
+                      <button data-qty="${p.id}" data-change="1" aria-label="Aumentar quantidade de ${p.name}"><i class="ph ph-plus" aria-hidden="true"></i></button>
+                    </div>
+                  </div>`,
+              )
+              .join('')
+          : '<p>Seu carrinho está vazio. Escolha um cuidado para levar para casa.</p>';
+        $('#cart-total').textContent = money(
+          selected.reduce((total, p) => total + p.price * cart[p.id], 0),
+        );
+        $('#checkout').disabled = !selected.length;
+        persist();
+      }
+      function showDialog(id) {
+        const dialog = $(id);
+        if (!dialog.open) dialog.showModal();
+      }
+      $('#cart-open').addEventListener('click', () => showDialog('#cart-dialog'));
+      document
+        .querySelectorAll('[data-close]')
+        .forEach(b => b.addEventListener('click', () => b.closest('dialog').close()));
+      document.querySelectorAll('dialog').forEach(d =>
+        d.addEventListener('click', e => {
+          if (e.target === d) {
+            const r = d.getBoundingClientRect();
+            if (
+              e.clientX < r.left ||
+              e.clientX > r.right ||
+              e.clientY < r.top ||
+              e.clientY > r.bottom
+            )
+              d.close();
+          }
+        }),
+      );
+      document.addEventListener('click', e => {
+        const add = e.target.closest('[data-add]');
+        if (add) {
+          cart[add.dataset.add] = Math.min(99, (cart[add.dataset.add] || 0) + 1);
+          renderCart();
+          toast('Produto adicionado à sua seleção.');
+        }
+        const fav = e.target.closest('[data-fav]');
+        if (fav) {
+          const id = fav.dataset.fav;
+          favorites.has(id) ? favorites.delete(id) : favorites.add(id);
+          persist();
+          renderProducts();
+        }
+        const qty = e.target.closest('[data-qty]');
+        if (qty) {
+          const id = qty.dataset.qty;
+          cart[id] = Math.min(99, Math.max(0, (cart[id] || 0) + Number(qty.dataset.change)));
+          if (!cart[id]) delete cart[id];
+          renderCart();
+        }
+        const service = e.target.closest('[data-service]');
+        if (service) {
+          $('#service').value = service.dataset.service;
+          updateService();
+        }
+      });
+      $('#checkout').addEventListener('click', () => {
+        const selected = PRODUCTS.filter(p => cart[p.id]);
+        if (!selected.length) return;
+        const total = selected.reduce((sum, p) => sum + p.price * cart[p.id], 0);
+        whatsapp(
+          'Olá! Gostaria de solicitar estes produtos da ESSENZA:\n\n' +
+            selected
+              .map(p => `${cart[p.id]} × ${p.name} — ${money(p.price * cart[p.id])}`)
+              .join('\n') +
+            `\n\nTotal dos produtos: ${money(total)}.\nPodemos confirmar disponibilidade, entrega e pagamento?`,
+        );
+      });
+      document.querySelectorAll('[data-filter]').forEach(b =>
+        b.addEventListener('click', () => {
+          filter = b.dataset.filter;
+          renderProducts();
+        }),
+      );
+      function showFavorites() {
+        filter = 'favorites';
+        renderProducts();
+        $('#produtos').scrollIntoView({ behavior: 'smooth' });
+      }
+      $('#favorites-open').addEventListener('click', showFavorites);
+      $('#favorites-filter').addEventListener('click', showFavorites);
+      function updateService() {
+        const i = Number($('#service').value);
+        $('#duration').value = SERVICES[i].duration;
+        if (i === 3) $('#location').value = 'A domicílio';
+      }
+      $('#service').addEventListener('change', updateService);
+      $('#home-book').addEventListener('click', () => {
+        $('#service').value = '3';
+        updateService();
+      });
+      function today() {
+        const d = new Date();
+        return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+      }
+      $('#date').min = today();
+      $('#booking-form').addEventListener('submit', e => {
+        e.preventDefault();
+        $('#date').min = today();
+        if (!e.target.reportValidity()) return;
+        const dateValue = $('#date').value;
+        const scheduled = new Date(`${dateValue}T${$('#time').value}`);
+        if (scheduled <= new Date()) {
+          toast('Escolha uma data e um horário futuros.');
+          return;
+        }
+        const date = dateValue.split('-').reverse().join('/');
+        whatsapp(
+          `Olá! Sou ${$('#customer').value.trim()}. Gostaria de agendar uma sessão de ${SERVICES[Number($('#service').value)].name}, com duração de ${$('#duration').value}, para ${date} às ${$('#time').value}.\nLocal: ${$('#location').value}.\nPodemos confirmar a disponibilidade e o valor?`,
+        );
+      });
+      $('#menu-toggle').addEventListener('click', () => {
+        const open = $('#nav').classList.toggle('open');
+        $('#menu-toggle').setAttribute('aria-expanded', String(open));
+        $('#menu-toggle').setAttribute('aria-label', open ? 'Fechar menu' : 'Abrir menu');
+      });
+      $('#nav').addEventListener('click', e => {
+        if (e.target.closest('a')) {
+          $('#nav').classList.remove('open');
+          $('#menu-toggle').setAttribute('aria-expanded', 'false');
+        }
+      });
+      const searchCatalog = [
+        ...SERVICES.map((s, i) => ({ name: s.name, url: '#agendamento', service: i })),
+        ...PRODUCTS.map(p => ({ name: p.name, url: '#produtos' })),
+      ];
+      function search() {
+        const query = $('#search-input')
+          .value.toLocaleLowerCase('pt-BR')
+          .normalize('NFD')
+          .replace(/[\u0300-\u036f]/g, '')
+          .trim();
+        const box = $('#search-results');
+        box.replaceChildren();
+        const matches = searchCatalog.filter(x =>
+          x.name
+            .toLocaleLowerCase('pt-BR')
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '')
+            .includes(query),
+        );
+        matches.forEach(x => {
+          const a = document.createElement('a');
+          a.className = 'search-result';
+          a.href = x.url;
+          a.textContent = x.name + ' ';
+          a.insertAdjacentHTML('beforeend', '<i class="ph ph-arrow-up-right" aria-hidden="true"></i>');
+          if (x.service !== undefined) a.dataset.service = x.service;
+          a.addEventListener('click', () => {
+            $('#search-dialog').close();
+            if (x.url === '#produtos') {
+              filter = 'all';
+              renderProducts();
+            }
+          });
+          box.append(a);
+        });
+        if (!matches.length)
+          box.textContent = 'Nenhum resultado. Experimente “massagem” ou “óleo”.';
+      }
+      $('#search-open').addEventListener('click', () => {
+        showDialog('#search-dialog');
+        search();
+        $('#search-input').focus();
+      });
+      $('#search-input').addEventListener('input', search);
+      renderProducts();
+      renderCart();
+      if (
+        'IntersectionObserver' in window &&
+        !matchMedia('(prefers-reduced-motion: reduce)').matches
+      ) {
+        document.body.classList.add('enhanced');
+        const observer = new IntersectionObserver(
+          entries =>
+            entries.forEach(entry => {
+              if (entry.isIntersecting) {
+                entry.target.classList.add('visible');
+                observer.unobserve(entry.target);
+              }
+            }),
+          { threshold: 0.08 },
+        );
+        document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+      }
+    </script>
+  </body>
+</html>

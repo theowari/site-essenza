@@ -1,0 +1,2171 @@
+{
+ "url": "v2/index.html",
+ "at": "2026-10-20T14:10:18.922Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.97,
+    1,
+    1,
+    0.96,
+    1,
+    0.77,
+    0.71,
+    0.96,
+    0.9,
+    0.46
+   ],
+   "motion": {
+    "elements": 37,
+    "css": 2,
+    "transitions": 35,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 8605,
+     "screens": 9.6,
+     "words": 622,
+     "img": 18,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 18,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1620733723572-11c53f73a416?auto=format&fit",
+      "photo-1765862835326-14b5070fdde9?auto=format&fit",
+      "photo-1611255550543-b5ecb01dfddc?auto=format&fit",
+      "photo-1741522509438-a120c0bb5e88?auto=format&fit",
+      "photo-1519824145371-296894a0daa9?auto=format&fit",
+      "photo-1544161515-4ab6ce6db874?auto=format&fit=cr",
+      "photo-1611073615830-9f76902c10fe?auto=format&fit",
+      "photo-1635575066917-e788c2bd06b7?auto=format&fit"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Massoterapia no espaço ou em casa",
+     "words": 6,
+     "chars": 33,
+     "lines": 2,
+     "size": 64,
+     "vw": 4.4,
+     "font": "Archivo",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.46,
+     "top": 724,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Massoterapia no espaço ou em casa",
+     "words": 6,
+     "lines": 2,
+     "size": 64,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "Massoterapia no espaço ou em casa",
+      "words": 6,
+      "chars": 33,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 724,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Quatro formas de pausa",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.38,
+      "top": 1058,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Sua casa vira o espaço",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 2418,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Como marcar sua sessão",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.44,
+      "top": 3538,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Monte seu pedido de horário",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 5029,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Leve o ritual para casa",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.46,
+      "top": 6091,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem cuida de você",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.36,
+      "top": 7296,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cada sessão começa ouvindo o que você sente e como prefere ser tocado.",
+      "words": 13,
+      "chars": 70,
+      "lines": 3,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.34,
+      "top": 7452,
+      "tag": "blockquote",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      14,
+      19,
+      26,
+      36,
+      64
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 19,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.3
+     },
+     "measureChars": 37,
+     "max": {
+      "size": 64,
+      "vw": 4.4,
+      "font": "Archivo",
+      "text": "Massoterapia no espaço ou em casa"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#2b211a",
+     "bodyBgHsl": {
+      "h": 25,
+      "s": 0.25,
+      "l": 0.14
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#e2e0dc",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.09,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#d7d0c9",
+       "top": 0,
+       "hsl": {
+        "h": 30,
+        "s": 0.15,
+        "l": 0.82
+       }
+      },
+      {
+       "color": "#2b211a",
+       "top": 4870,
+       "hsl": {
+        "h": 25,
+        "s": 0.25,
+        "l": 0.14
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1d1914",
+       "share": 0.55
+      },
+      {
+       "color": "#4a433c",
+       "share": 0.19
+      },
+      {
+       "color": "#c8beb4",
+       "share": 0.15
+      },
+      {
+       "color": "#efeceb",
+       "share": 0.07
+      },
+      {
+       "color": "#2e4b3c",
+       "share": 0.01
+      }
+     ],
+     "button": {
+      "bg": "#2e4b3c",
+      "hsl": {
+       "h": 149,
+       "s": 0.24,
+       "l": 0.24
+      },
+      "fg": "#fffefe"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": 0,
+     "height": 57,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Pular para o conteúdo",
+      "Agendar",
+      "Agendar uma sessão"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 17,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 1
+     },
+     {
+      "type": "svg",
+      "ratio": 0.27
+     }
+    ],
+    "nav": {
+     "links": 7,
+     "fixed": true,
+     "height": 76,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "archivo",
+     "phosphor"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 8605,
+    "margins": {
+     "left": 79,
+     "right": 79
+    },
+    "sections": [
+     {
+      "sel": "section#inicio.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 900,
+      "words": 36,
+      "media": 0,
+      "middle": 381,
+      "heading": null,
+      "left": 79,
+      "right": 104,
+      "textLeft": 79,
+      "textRight": 104,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#massagens.section",
+      "tag": "section",
+      "top": 900,
+      "height": 1360,
+      "words": 133,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Quatro formas de pausa",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 79,
+      "textRight": 123,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#domicilio.section.wrap",
+      "tag": "section",
+      "top": 2260,
+      "height": 1120,
+      "words": 80,
+      "media": 2,
+      "middle": 24,
+      "heading": {
+       "text": "Sua casa vira o espaço",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 79,
+      "right": 101,
+      "textLeft": 79,
+      "textRight": 102,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#como-funciona.section.wrap",
+      "tag": "section",
+      "top": 3380,
+      "height": 1490,
+      "words": 68,
+      "media": 3,
+      "middle": 74,
+      "heading": {
+       "text": "Como marcar sua sessão",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 79,
+      "right": 79,
+      "textLeft": 188,
+      "textRight": 138,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#agendar.section.booking",
+      "tag": "section",
+      "top": 4870,
+      "height": 1062,
+      "words": 100,
+      "media": 0,
+      "middle": 133,
+      "heading": {
+       "text": "Monte seu pedido de horário",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 79,
+      "right": 109,
+      "textLeft": 79,
+      "textRight": 109,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#produtos.section.wrap",
+      "tag": "section",
+      "top": 5932,
+      "height": 1205,
+      "words": 104,
+      "media": 1,
+      "middle": 37,
+      "heading": {
+       "text": "Leve o ritual para casa",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 79,
+      "right": 79,
+      "textLeft": 122,
+      "textRight": 79,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#sobre.section.wrap",
+      "tag": "section",
+      "top": 7137,
+      "height": 568,
+      "words": 36,
+      "media": 1,
+      "middle": 291,
+      "heading": {
+       "text": "Quem cuida de você",
+       "size": 64,
+       "tag": "h2"
+      },
+      "left": 79,
+      "right": 171,
+      "textLeft": 79,
+      "textRight": 171,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contato.site-footer",
+      "tag": "footer",
+      "top": 0,
+      "height": 900,
+      "words": 35,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 79,
+      "right": 79,
+      "textLeft": 79,
+      "textRight": 79,
+      "fullBleed": false,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Massoterapia no espaço ou em casa",
+      "size": 64,
+      "top": 724,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 79,
+      "n": 7
+     },
+     {
+      "x": 623,
+      "n": 2
+     },
+     {
+      "x": 841,
+      "n": 2
+     },
+     {
+      "x": 122,
+      "n": 1
+     },
+     {
+      "x": 188,
+      "n": 1
+     },
+     {
+      "x": 297,
+      "n": 1
+     },
+     {
+      "x": 608,
+      "n": 1
+     },
+     {
+      "x": 882,
+      "n": 1
+     },
+     {
+      "x": 950,
+      "n": 1
+     },
+     {
+      "x": 985,
+      "n": 1
+     },
+     {
+      "x": 1058,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 19,
+    "bodySize": 19,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 10,
+   "filled": [
+    0.96,
+    1,
+    0.99,
+    0.9,
+    1,
+    0.85,
+    0.57,
+    0.9,
+    0.92,
+    0.29
+   ],
+   "motion": {
+    "elements": 36,
+    "css": 2,
+    "transitions": 34,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 10002,
+     "screens": 9.8,
+     "words": 612,
+     "img": 18,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 17,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1620733723572-11c53f73a416?auto=format&fit",
+      "photo-1765862835326-14b5070fdde9?auto=format&fit",
+      "photo-1611255550543-b5ecb01dfddc?auto=format&fit",
+      "photo-1741522509438-a120c0bb5e88?auto=format&fit",
+      "photo-1519824145371-296894a0daa9?auto=format&fit",
+      "photo-1544161515-4ab6ce6db874?auto=format&fit=cr",
+      "photo-1611073615830-9f76902c10fe?auto=format&fit",
+      "photo-1635575066917-e788c2bd06b7?auto=format&fit"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Massoterapia no espaço ou em casa",
+     "words": 6,
+     "chars": 33,
+     "lines": 2,
+     "size": 45.4,
+     "vw": 5.9,
+     "font": "Archivo",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "left",
+     "widthRatio": 0.61,
+     "top": 677,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Massoterapia no espaço ou em casa",
+     "words": 6,
+     "lines": 2,
+     "size": 45.4,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "Massoterapia no espaço ou em casa",
+      "words": 6,
+      "chars": 33,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 677,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Quatro formas de pausa",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.39,
+      "top": 1120,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Sua casa vira o espaço",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 2726,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Como marcar sua sessão",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.64,
+      "top": 3869,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Monte seu pedido de horário",
+      "words": 5,
+      "chars": 27,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 5920,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Leve o ritual para casa",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.61,
+      "top": 7124,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem cuida de você",
+      "words": 4,
+      "chars": 18,
+      "lines": 2,
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 8649,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cada sessão começa ouvindo o que você sente e como prefere ser tocado.",
+      "words": 13,
+      "chars": 70,
+      "lines": 3,
+      "size": 28.4,
+      "vw": 3.7,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 8767,
+      "tag": "blockquote",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      18,
+      23,
+      28,
+      45
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 17.9,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.3
+     },
+     "measureChars": 48,
+     "max": {
+      "size": 45.4,
+      "vw": 5.9,
+      "font": "Archivo",
+      "text": "Massoterapia no espaço ou em casa"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#2b211a",
+     "bodyBgHsl": {
+      "h": 25,
+      "s": 0.25,
+      "l": 0.14
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#e2e0dc",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.09,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#d7d0c9",
+       "top": 0,
+       "hsl": {
+        "h": 30,
+        "s": 0.15,
+        "l": 0.82
+       }
+      },
+      {
+       "color": "#2b211a",
+       "top": 5824,
+       "hsl": {
+        "h": 25,
+        "s": 0.25,
+        "l": 0.14
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1d1914",
+       "share": 0.54
+      },
+      {
+       "color": "#4a433c",
+       "share": 0.19
+      },
+      {
+       "color": "#c8beb4",
+       "share": 0.16
+      },
+      {
+       "color": "#efeceb",
+       "share": 0.07
+      },
+      {
+       "color": "#2e4b3c",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#2e4b3c",
+      "hsl": {
+       "h": 149,
+       "s": 0.24,
+       "l": 0.24
+      },
+      "fg": "#fffefe"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": 0,
+     "height": 55,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Pular para o conteúdo",
+      "Agendar",
+      "Agendar uma sessão"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 17,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 1
+     },
+     {
+      "type": "svg",
+      "ratio": 0.13
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "archivo",
+     "phosphor"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 10002,
+    "margins": {
+     "left": 42,
+     "right": 42
+    },
+    "sections": [
+     {
+      "sel": "section#inicio.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 1024,
+      "words": 36,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 42,
+      "right": 283,
+      "textLeft": 42,
+      "textRight": 283,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#massagens.section",
+      "tag": "section",
+      "top": 1024,
+      "height": 1606,
+      "words": 133,
+      "media": 4,
+      "middle": 0,
+      "heading": {
+       "text": "Quatro formas de pausa",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 42,
+      "textRight": 51,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#domicilio.section.wrap",
+      "tag": "section",
+      "top": 2630,
+      "height": 1143,
+      "words": 80,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Sua casa vira o espaço",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 42,
+      "right": 42,
+      "textLeft": 42,
+      "textRight": 45,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#como-funciona.section.wrap",
+      "tag": "section",
+      "top": 3773,
+      "height": 2051,
+      "words": 68,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Como marcar sua sessão",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 42,
+      "right": 42,
+      "textLeft": 42,
+      "textRight": 79,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#agendar.section.booking",
+      "tag": "section",
+      "top": 5824,
+      "height": 1204,
+      "words": 100,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Monte seu pedido de horário",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 42,
+      "right": 42,
+      "textLeft": 42,
+      "textRight": 77,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#produtos.section.wrap",
+      "tag": "section",
+      "top": 7028,
+      "height": 1525,
+      "words": 96,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 42,
+      "right": 42,
+      "textLeft": 42,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#sobre.section.wrap",
+      "tag": "section",
+      "top": 8553,
+      "height": 426,
+      "words": 36,
+      "media": 0,
+      "middle": 15,
+      "heading": {
+       "text": "Quem cuida de você",
+       "size": 45,
+       "tag": "h2"
+      },
+      "left": 42,
+      "right": 63,
+      "textLeft": 42,
+      "textRight": 63,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contato.site-footer",
+      "tag": "footer",
+      "top": 0,
+      "height": 1024,
+      "words": 35,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 42,
+      "right": 42,
+      "textLeft": 42,
+      "textRight": 42,
+      "fullBleed": false,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Massoterapia no espaço ou em casa",
+      "size": 45,
+      "top": 677,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 42,
+      "n": 11
+     },
+     {
+      "x": 66,
+      "n": 1
+     },
+     {
+      "x": 356,
+      "n": 1
+     },
+     {
+      "x": 377,
+      "n": 1
+     },
+     {
+      "x": 420,
+      "n": 1
+     },
+     {
+      "x": 507,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 16,
+    "bodySize": 18,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 12,
+   "filled": [
+    0.98,
+    1,
+    1,
+    1,
+    0.89,
+    1,
+    0.82,
+    0.69,
+    0.78,
+    0.99,
+    0.81,
+    0.33
+   ],
+   "motion": {
+    "elements": 37,
+    "css": 2,
+    "transitions": 35,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 9829,
+     "screens": 11.6,
+     "words": 609,
+     "img": 18,
+     "video": 0,
+     "canvas": 0,
+     "svg": 2,
+     "sections": 7,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 17,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [
+      "photo-1620733723572-11c53f73a416?auto=format&fit",
+      "photo-1765862835326-14b5070fdde9?auto=format&fit",
+      "photo-1611255550543-b5ecb01dfddc?auto=format&fit",
+      "photo-1741522509438-a120c0bb5e88?auto=format&fit",
+      "photo-1519824145371-296894a0daa9?auto=format&fit",
+      "photo-1544161515-4ab6ce6db874?auto=format&fit=cr",
+      "photo-1611073615830-9f76902c10fe?auto=format&fit",
+      "photo-1635575066917-e788c2bd06b7?auto=format&fit"
+     ],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Massoterapia no espaço ou em casa",
+     "words": 6,
+     "chars": 33,
+     "lines": 2,
+     "size": 33.3,
+     "vw": 8.5,
+     "font": "Archivo",
+     "weight": 400,
+     "tracking": -0.02,
+     "leading": 1,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.88,
+     "top": 460,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Massoterapia no espaço ou em casa",
+     "words": 6,
+     "lines": 2,
+     "size": 33.3,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "Massoterapia no espaço ou em casa",
+      "words": 6,
+      "chars": 33,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 460,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Quatro formas de pausa",
+      "words": 4,
+      "chars": 22,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.87,
+      "top": 940,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Sua casa vira o espaço",
+      "words": 5,
+      "chars": 22,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 2807,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Como marcar sua sessão",
+      "words": 4,
+      "chars": 22,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 4153,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Monte seu pedido de horário",
+      "words": 5,
+      "chars": 27,
+      "lines": 2,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 5661,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Leve o ritual para casa",
+      "words": 5,
+      "chars": 23,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.88,
+      "top": 7163,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Quem cuida de você",
+      "words": 4,
+      "chars": 18,
+      "lines": 1,
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.02,
+      "leading": 1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.89,
+      "top": 8478,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Cada sessão começa ouvindo o que você sente e como prefere ser tocado.",
+      "words": 13,
+      "chars": 70,
+      "lines": 3,
+      "size": 24,
+      "vw": 6.2,
+      "font": "Archivo",
+      "weight": 400,
+      "tracking": -0.01,
+      "leading": 1.15,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.85,
+      "top": 8540,
+      "tag": "blockquote",
+      "kind": "statement"
+     }
+    ],
+    "headingSummary": {
+     "count": 8,
+     "maxLines": 3,
+     "over2Lines": 0,
+     "statements": 1,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 1,
+       "mono": false
+      }
+     ],
+     "familyCount": 1,
+     "sizes": [
+      13,
+      17,
+      20,
+      24,
+      33
+     ],
+     "sizeCount": 5,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 17,
+      "leading": 1.5,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 13.3
+     },
+     "measureChars": 37,
+     "max": {
+      "size": 33.3,
+      "vw": 8.5,
+      "font": "Archivo",
+      "text": "Massoterapia no espaço ou em casa"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 0,
+     "microLabelShare": 0,
+     "microSamples": [],
+     "upperShare": 0,
+     "centerShare": 0.02,
+     "smallText": 0
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#2b211a",
+     "bodyBgHsl": {
+      "h": 25,
+      "s": 0.25,
+      "l": 0.14
+     },
+     "dark": true,
+     "sectionBgs": [
+      {
+       "color": "#e2e0dc",
+       "top": 0,
+       "hsl": {
+        "h": 40,
+        "s": 0.09,
+        "l": 0.87
+       }
+      },
+      {
+       "color": "#d7d0c9",
+       "top": 0,
+       "hsl": {
+        "h": 30,
+        "s": 0.15,
+        "l": 0.82
+       }
+      },
+      {
+       "color": "#2b211a",
+       "top": 5565,
+       "hsl": {
+        "h": 25,
+        "s": 0.25,
+        "l": 0.14
+       }
+      },
+      {
+       "color": "#3b2e27",
+       "top": 5902,
+       "hsl": {
+        "h": 21,
+        "s": 0.2,
+        "l": 0.19
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#1d1914",
+       "share": 0.54
+      },
+      {
+       "color": "#4a433c",
+       "share": 0.19
+      },
+      {
+       "color": "#c8beb4",
+       "share": 0.16
+      },
+      {
+       "color": "#efeceb",
+       "share": 0.07
+      },
+      {
+       "color": "#2e4b3c",
+       "share": 0.02
+      }
+     ],
+     "button": {
+      "bg": "#2e4b3c",
+      "hsl": {
+       "h": 149,
+       "s": 0.24,
+       "l": 0.24
+      },
+      "fg": "#fffefe"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 5,
+     "inHero": 3,
+     "radius": 0,
+     "height": 54,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Pular para o conteúdo",
+      "Agendar",
+      "Agendar uma sessão"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 0,
+     "shadowOverlay": 0,
+     "shadowSamples": [],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 0,
+     "hairlineSamples": [],
+     "outlinedBoxes": 0,
+     "dashed": 0,
+     "blurred": 0,
+     "roundedBoxes": 0,
+     "boxRadius": 0,
+     "squareMedia": 15,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [
+     {
+      "type": "img",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 1
+     },
+     {
+      "type": "img",
+      "ratio": 1
+     }
+    ],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 64,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "archivo",
+     "phosphor"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 9829,
+    "margins": {
+     "left": 21,
+     "right": 21
+    },
+    "sections": [
+     {
+      "sel": "section#inicio.hero",
+      "tag": "section",
+      "top": 0,
+      "height": 844,
+      "words": 36,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Massoterapia no espaço ou em casa",
+       "size": 33,
+       "tag": "h1"
+      },
+      "left": 21,
+      "right": 47,
+      "textLeft": 21,
+      "textRight": 47,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.wrap.grid",
+      "tag": "div",
+      "top": 940,
+      "height": 166,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quatro formas de pausa",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 21,
+      "right": 29,
+      "textLeft": 21,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "ul#band.band.is-in",
+      "tag": "ul",
+      "top": 1106,
+      "height": 709,
+      "words": 9,
+      "media": 2,
+      "middle": 0,
+      "heading": null,
+      "left": 0,
+      "right": 0,
+      "textLeft": 21,
+      "textRight": 34,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "div.wrap",
+      "tag": "div",
+      "top": 1855,
+      "height": 760,
+      "words": 96,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 21,
+      "right": 28,
+      "textLeft": 21,
+      "textRight": 28,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#domicilio.section.wrap",
+      "tag": "section",
+      "top": 2711,
+      "height": 1346,
+      "words": 80,
+      "media": 2,
+      "middle": 0,
+      "heading": {
+       "text": "Sua casa vira o espaço",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 21,
+      "right": 21,
+      "textLeft": 21,
+      "textRight": 30,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#como-funciona.section.wrap",
+      "tag": "section",
+      "top": 4057,
+      "height": 1508,
+      "words": 68,
+      "media": 3,
+      "middle": 0,
+      "heading": {
+       "text": "Como marcar sua sessão",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 21,
+      "right": 21,
+      "textLeft": 21,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#agendar.section.booking",
+      "tag": "section",
+      "top": 5565,
+      "height": 1502,
+      "words": 100,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Monte seu pedido de horário",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 21,
+      "right": 21,
+      "textLeft": 21,
+      "textRight": 25,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#produtos.section.wrap",
+      "tag": "section",
+      "top": 7067,
+      "height": 1315,
+      "words": 101,
+      "media": 1,
+      "middle": 0,
+      "heading": {
+       "text": "Leve o ritual para casa",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 21,
+      "right": 21,
+      "textLeft": 21,
+      "textRight": 21,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section#sobre.section.wrap",
+      "tag": "section",
+      "top": 8382,
+      "height": 602,
+      "words": 36,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Quem cuida de você",
+       "size": 33,
+       "tag": "h2"
+      },
+      "left": 21,
+      "right": 55,
+      "textLeft": 21,
+      "textRight": 55,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer#contato.site-footer",
+      "tag": "footer",
+      "top": 0,
+      "height": 844,
+      "words": 35,
+      "media": 1,
+      "middle": 0,
+      "heading": null,
+      "left": 21,
+      "right": 21,
+      "textLeft": 21,
+      "textRight": 61,
+      "fullBleed": false,
+      "footer": true,
+      "hero": true,
+      "continues": false,
+      "pinned": true
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Massoterapia no espaço ou em casa",
+      "size": 33,
+      "top": 460,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 21,
+      "n": 14
+     },
+     {
+      "x": 39,
+      "n": 1
+     },
+     {
+      "x": 141,
+      "n": 1
+     },
+     {
+      "x": 153,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 17,
+    "bodySize": 17,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "WARN",
+   "id": "ragged-edges",
+   "width": 1440,
+   "message": "Left-aligned text starts at 11 different lines (79px, 623px, 841px, 122px, 188px, 297px, 608px); the three most used hold only 58% of it.",
+   "fix": "Pick two or three anchor lines from the grid and start every heading and paragraph on one of them."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "Z:\\Dev\\roger site\\.taste-skill\\after\\desktop-fold.jpg",
+   "pages": [
+    "Z:\\Dev\\roger site\\.taste-skill\\after\\desktop-page-01.jpg",
+    "Z:\\Dev\\roger site\\.taste-skill\\after\\desktop-page-02.jpg",
+    "Z:\\Dev\\roger site\\.taste-skill\\after\\desktop-page-03.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "Z:\\Dev\\roger site\\.taste-skill\\after\\tablet-fold.jpg",
+   "pages": [
+    "Z:\\Dev\\roger site\\.taste-skill\\after\\tablet-page-01.jpg",
+    "Z:\\Dev\\roger site\\.taste-skill\\after\\tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "Z:\\Dev\\roger site\\.taste-skill\\after\\mobile-fold.jpg",
+   "pages": [
+    "Z:\\Dev\\roger site\\.taste-skill\\after\\mobile-page-01.jpg",
+    "Z:\\Dev\\roger site\\.taste-skill\\after\\mobile-page-02.jpg"
+   ],
+   "film": []
+  }
+ ]
+}
